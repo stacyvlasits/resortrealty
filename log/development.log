@@ -8557,3 +8557,584 @@ Rendered articles/_article (1.0ms)
 Rendered articles/_article (1.0ms)
 Rendered shared/_menu (1.0ms)
 Completed in 19ms (View: 10, DB: 4) | 200 OK [http://localhost/articles]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ResourcesController#index (for 127.0.0.1 at 2010-05-16 23:19:22) [GET]
+  [4;35;1mResource Load (0.0ms)[0m   [0mSELECT * FROM `resources` [0m
+Rendering template within layouts/application
+Rendering resources/index
+  [4;36;1mResource Columns (4.0ms)[0m   [0;1mSHOW FIELDS FROM `resources`[0m
+Rendered resources/_resource (1.0ms)
+Rendered resources/_resource (1.0ms)
+Rendered shared/_menu (1.0ms)
+Completed in 19ms (View: 9, DB: 4) | 200 OK [http://localhost/resources]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ResourcesController#index (for 127.0.0.1 at 2010-05-16 23:21:01) [GET]
+  [4;35;1mResource Load (0.0ms)[0m   [0mSELECT * FROM `resources` [0m
+Rendering template within layouts/application
+Rendering resources/index
+  [4;36;1mResource Columns (4.0ms)[0m   [0;1mSHOW FIELDS FROM `resources`[0m
+Rendered resources/_resource (0.0ms)
+Rendered resources/_resource (0.0ms)
+Rendered shared/_menu (0.0ms)
+Completed in 16ms (View: 5, DB: 5) | 200 OK [http://localhost/resources]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ResourcesController#index (for 127.0.0.1 at 2010-05-16 23:21:19) [GET]
+  [4;35;1mResource Load (0.0ms)[0m   [0mSELECT * FROM `resources` [0m
+Rendering template within layouts/application
+Rendering resources/index
+  [4;36;1mResource Columns (4.0ms)[0m   [0;1mSHOW FIELDS FROM `resources`[0m
+Rendered resources/_resource (1.0ms)
+Rendered resources/_resource (0.0ms)
+Rendered shared/_menu (1.0ms)
+Completed in 16ms (View: 6, DB: 4) | 200 OK [http://localhost/resources]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ResourcesController#index (for 127.0.0.1 at 2010-05-16 23:21:23) [GET]
+  [4;35;1mResource Load (0.0ms)[0m   [0mSELECT * FROM `resources` [0m
+Rendering template within layouts/application
+Rendering resources/index
+  [4;36;1mResource Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `resources`[0m
+Rendered resources/_resource (0.0ms)
+Rendered resources/_resource (0.0ms)
+Rendered shared/_menu (0.0ms)
+Completed in 15ms (View: 6, DB: 3) | 200 OK [http://localhost/resources]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ResourcesController#index (for 127.0.0.1 at 2010-05-16 23:22:12) [GET]
+  [4;35;1mResource Load (1.0ms)[0m   [0mSELECT * FROM `resources` [0m
+Rendering template within layouts/application
+Rendering resources/index
+  [4;36;1mResource Columns (4.0ms)[0m   [0;1mSHOW FIELDS FROM `resources`[0m
+Rendered resources/_resource (1.0ms)
+Rendered resources/_resource (0.0ms)
+Rendered shared/_menu (2.0ms)
+Completed in 19ms (View: 9, DB: 5) | 200 OK [http://localhost/resources]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-05-16 23:22:54) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered shared/_menu (1.0ms)
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/login]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-05-16 23:22:57) [POST]
+  Parameters: {"commit"=>"Login", "authenticity_token"=>"asjObny3DHBvWqsuyJCJwncXSMjQAMkyO6cWKZxRTsg=", "username"=>"", "password"=>"foobar"}
+Redirected to http://localhost:3003/home
+Completed in 2ms (DB: 0) | 302 Found [http://localhost/sessions]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-05-16 23:22:57) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Rendered shared/_menu (1.0ms)
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/home]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-05-16 23:23:00) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Rendered shared/_menu (0.0ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/home]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#index (for 127.0.0.1 at 2010-05-16 23:23:01) [GET]
+  [4;35;1mArticle Load (1.0ms)[0m   [0mSELECT * FROM `articles` [0m
+Rendering template within layouts/application
+Rendering articles/index
+  [4;36;1mArticle Columns (4.0ms)[0m   [0;1mSHOW FIELDS FROM `articles`[0m
+Rendered articles/_article (1.0ms)
+Rendered articles/_article (1.0ms)
+Rendered articles/_article (1.0ms)
+Rendered shared/_menu (1.0ms)
+Completed in 20ms (View: 10, DB: 5) | 200 OK [http://localhost/articles]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#index (for 127.0.0.1 at 2010-05-16 23:23:03) [GET]
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` [0m
+Rendering template within layouts/application
+Rendering articles/index
+  [4;36;1mArticle Columns (4.0ms)[0m   [0;1mSHOW FIELDS FROM `articles`[0m
+Rendered articles/_article (1.0ms)
+Rendered articles/_article (1.0ms)
+Rendered articles/_article (2.0ms)
+Rendered shared/_menu (0.0ms)
+Completed in 18ms (View: 8, DB: 5) | 200 OK [http://localhost/articles]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#index (for 127.0.0.1 at 2010-05-16 23:25:06) [GET]
+  [4;35;1mArticle Load (1.0ms)[0m   [0mSELECT * FROM `articles` [0m
+Rendering template within layouts/application
+Rendering articles/index
+  [4;36;1mArticle Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `articles`[0m
+Rendered articles/_article (1.0ms)
+Rendered articles/_article (1.0ms)
+Rendered articles/_article (2.0ms)
+Rendered shared/_menu (0.0ms)
+Completed in 22ms (View: 13, DB: 5) | 200 OK [http://localhost/articles]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#show (for 127.0.0.1 at 2010-05-16 23:25:16) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mArticle Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+  [4;36;1mArticle Load (2.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 1) [0m
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` [0m
+Rendering template within layouts/application
+Rendering articles/show
+Rendered articles/_article (1.0ms)
+Rendered shared/_menu (0.0ms)
+Completed in 19ms (View: 7, DB: 5) | 200 OK [http://localhost/articles/1]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#show (for 127.0.0.1 at 2010-05-16 23:25:24) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mArticle Columns (4.0ms)[0m   [0;1mSHOW FIELDS FROM `articles`[0m
+  [4;35;1mArticle Load (2.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 2) [0m
+  [4;36;1mArticle Load (0.0ms)[0m   [0;1mSELECT * FROM `articles` [0m
+Rendering template within layouts/application
+Rendering articles/show
+Rendered articles/_article (1.0ms)
+Rendered shared/_menu (1.0ms)
+Completed in 19ms (View: 8, DB: 7) | 200 OK [http://localhost/articles/2]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#show (for 127.0.0.1 at 2010-05-16 23:25:25) [GET]
+  Parameters: {"id"=>"4"}
+  [4;35;1mArticle Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+  [4;36;1mArticle Load (2.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 4) [0m
+  [4;35;1mArticle Load (1.0ms)[0m   [0mSELECT * FROM `articles` [0m
+Rendering template within layouts/application
+Rendering articles/show
+Rendered articles/_article (2.0ms)
+Rendered shared/_menu (1.0ms)
+Completed in 19ms (View: 8, DB: 6) | 200 OK [http://localhost/articles/4]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#index (for 127.0.0.1 at 2010-05-16 23:25:27) [GET]
+  [4;36;1mArticle Load (0.0ms)[0m   [0;1mSELECT * FROM `articles` [0m
+Rendering template within layouts/application
+Rendering articles/index
+  [4;35;1mArticle Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+Rendered articles/_article (1.0ms)
+Rendered articles/_article (1.0ms)
+Rendered articles/_article (1.0ms)
+Rendered shared/_menu (0.0ms)
+Completed in 18ms (View: 9, DB: 4) | 200 OK [http://localhost/articles]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#index (for 127.0.0.1 at 2010-05-16 23:26:34) [GET]
+  [4;36;1mArticle Load (1.0ms)[0m   [0;1mSELECT * FROM `articles` [0m
+Rendering template within layouts/application
+Rendering articles/index
+  [4;35;1mArticle Columns (4.0ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+Rendered articles/_article (1.0ms)
+Rendered articles/_article (1.0ms)
+Rendered articles/_article (1.0ms)
+Rendered shared/_menu (0.0ms)
+Completed in 22ms (View: 12, DB: 6) | 200 OK [http://localhost/articles]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#index (for 127.0.0.1 at 2010-05-16 23:26:54) [GET]
+  [4;36;1mArticle Load (1.0ms)[0m   [0;1mSELECT * FROM `articles` [0m
+Rendering template within layouts/application
+Rendering articles/index
+  [4;35;1mArticle Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+Rendered articles/_article (1.0ms)
+Rendered articles/_article (1.0ms)
+Rendered articles/_article (2.0ms)
+Rendered shared/_menu (0.0ms)
+Completed in 22ms (View: 13, DB: 4) | 200 OK [http://localhost/articles]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#index (for 127.0.0.1 at 2010-05-16 23:27:01) [GET]
+  [4;36;1mArticle Load (1.0ms)[0m   [0;1mSELECT * FROM `articles` [0m
+Rendering template within layouts/application
+Rendering articles/index
+  [4;35;1mArticle Columns (4.0ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+Rendered articles/_article (1.0ms)
+Rendered articles/_article (1.0ms)
+Rendered articles/_article (1.0ms)
+Rendered shared/_menu (0.0ms)
+Completed in 19ms (View: 9, DB: 5) | 200 OK [http://localhost/articles]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#show (for 127.0.0.1 at 2010-05-16 23:27:03) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mArticle Columns (4.0ms)[0m   [0;1mSHOW FIELDS FROM `articles`[0m
+  [4;35;1mArticle Load (2.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 1) [0m
+  [4;36;1mArticle Load (0.0ms)[0m   [0;1mSELECT * FROM `articles` [0m
+Rendering template within layouts/application
+Rendering articles/show
+Rendered articles/_article (1.0ms)
+Rendered shared/_menu (0.0ms)
+Completed in 18ms (View: 7, DB: 6) | 200 OK [http://localhost/articles/1]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#show (for 127.0.0.1 at 2010-05-16 23:27:04) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mArticle Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+  [4;36;1mArticle Load (0.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 2) [0m
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` [0m
+Rendering template within layouts/application
+Rendering articles/show
+Rendered articles/_article (1.0ms)
+Rendered shared/_menu (1.0ms)
+Completed in 18ms (View: 8, DB: 3) | 200 OK [http://localhost/articles/2]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#show (for 127.0.0.1 at 2010-05-16 23:27:05) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mArticle Columns (4.0ms)[0m   [0;1mSHOW FIELDS FROM `articles`[0m
+  [4;35;1mArticle Load (2.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 4) [0m
+  [4;36;1mArticle Load (0.0ms)[0m   [0;1mSELECT * FROM `articles` [0m
+Rendering template within layouts/application
+Rendering articles/show
+Rendered articles/_article (1.0ms)
+Rendered shared/_menu (0.0ms)
+Completed in 20ms (View: 8, DB: 6) | 200 OK [http://localhost/articles/4]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#index (for 127.0.0.1 at 2010-05-16 23:27:06) [GET]
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` [0m
+Rendering template within layouts/application
+Rendering articles/index
+  [4;36;1mArticle Columns (4.0ms)[0m   [0;1mSHOW FIELDS FROM `articles`[0m
+Rendered articles/_article (1.0ms)
+Rendered articles/_article (1.0ms)
+Rendered articles/_article (1.0ms)
+Rendered shared/_menu (0.0ms)
+Completed in 19ms (View: 9, DB: 4) | 200 OK [http://localhost/articles]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#index (for 127.0.0.1 at 2010-05-16 23:27:08) [GET]
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` [0m
+Rendering template within layouts/application
+Rendering articles/index
+  [4;36;1mArticle Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `articles`[0m
+Rendered articles/_article (1.0ms)
+Rendered articles/_article (1.0ms)
+Rendered articles/_article (2.0ms)
+Rendered shared/_menu (1.0ms)
+Completed in 18ms (View: 9, DB: 3) | 200 OK [http://localhost/articles]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#show (for 127.0.0.1 at 2010-05-16 23:27:09) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mArticle Columns (4.0ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+  [4;36;1mArticle Load (2.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 1) [0m
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` [0m
+Rendering template within layouts/application
+Rendering articles/show
+Rendered articles/_article (0.0ms)
+Rendered shared/_menu (1.0ms)
+Completed in 43ms (View: 8, DB: 6) | 200 OK [http://localhost/articles/1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#show (for 127.0.0.1 at 2010-05-16 23:27:52) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mArticle Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `articles`[0m
+  [4;35;1mArticle Load (2.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 1) [0m
+  [4;36;1mArticle Load (0.0ms)[0m   [0;1mSELECT * FROM `articles` [0m
+Rendering template within layouts/application
+Rendering articles/show
+Rendered articles/_article (1.0ms)
+Rendered shared/_menu (0.0ms)
+Completed in 19ms (View: 7, DB: 6) | 200 OK [http://localhost/articles/1]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#show (for 127.0.0.1 at 2010-05-16 23:27:57) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mArticle Columns (4.0ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+  [4;36;1mArticle Load (2.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 1) [0m
+  [4;35;1mArticle Load (1.0ms)[0m   [0mSELECT * FROM `articles` [0m
+Rendering template within layouts/application
+Rendering articles/show
+Rendered articles/_article (0.0ms)
+Rendered shared/_menu (1.0ms)
+Completed in 23ms (View: 11, DB: 8) | 200 OK [http://localhost/articles/1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#show (for 127.0.0.1 at 2010-05-16 23:27:59) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mArticle Columns (4.0ms)[0m   [0;1mSHOW FIELDS FROM `articles`[0m
+  [4;35;1mArticle Load (1.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 1) [0m
+  [4;36;1mArticle Load (0.0ms)[0m   [0;1mSELECT * FROM `articles` [0m
+Rendering template within layouts/application
+Rendering articles/show
+Rendered articles/_article (1.0ms)
+Rendered shared/_menu (1.0ms)
+Completed in 19ms (View: 7, DB: 5) | 200 OK [http://localhost/articles/1]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#index (for 127.0.0.1 at 2010-05-16 23:28:01) [GET]
+  [4;35;1mArticle Load (1.0ms)[0m   [0mSELECT * FROM `articles` [0m
+Rendering template within layouts/application
+Rendering articles/index
+  [4;36;1mArticle Columns (4.0ms)[0m   [0;1mSHOW FIELDS FROM `articles`[0m
+Rendered articles/_article (1.0ms)
+Rendered articles/_article (1.0ms)
+Rendered articles/_article (2.0ms)
+Rendered shared/_menu (1.0ms)
+Completed in 19ms (View: 9, DB: 5) | 200 OK [http://localhost/articles]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#show (for 127.0.0.1 at 2010-05-16 23:28:02) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mArticle Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+  [4;36;1mArticle Load (1.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 1) [0m
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` [0m
+Rendering template within layouts/application
+Rendering articles/show
+Rendered articles/_article (1.0ms)
+Rendered shared/_menu (0.0ms)
+Completed in 41ms (View: 7, DB: 4) | 200 OK [http://localhost/articles/1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#show (for 127.0.0.1 at 2010-05-16 23:28:03) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mArticle Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `articles`[0m
+  [4;35;1mArticle Load (1.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 2) [0m
+  [4;36;1mArticle Load (0.0ms)[0m   [0;1mSELECT * FROM `articles` [0m
+Rendering template within layouts/application
+Rendering articles/show
+Rendered articles/_article (1.0ms)
+Rendered shared/_menu (0.0ms)
+Completed in 19ms (View: 7, DB: 4) | 200 OK [http://localhost/articles/2]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#show (for 127.0.0.1 at 2010-05-16 23:28:04) [GET]
+  Parameters: {"id"=>"4"}
+  [4;35;1mArticle Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+  [4;36;1mArticle Load (1.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 4) [0m
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` [0m
+Rendering template within layouts/application
+Rendering articles/show
+Rendered articles/_article (1.0ms)
+Rendered shared/_menu (0.0ms)
+Completed in 19ms (View: 8, DB: 4) | 200 OK [http://localhost/articles/4]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#index (for 127.0.0.1 at 2010-05-16 23:28:05) [GET]
+  [4;36;1mArticle Load (1.0ms)[0m   [0;1mSELECT * FROM `articles` [0m
+Rendering template within layouts/application
+Rendering articles/index
+  [4;35;1mArticle Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+Rendered articles/_article (1.0ms)
+Rendered articles/_article (1.0ms)
+Rendered articles/_article (1.0ms)
+Rendered shared/_menu (1.0ms)
+Completed in 18ms (View: 10, DB: 4) | 200 OK [http://localhost/articles]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#index (for 127.0.0.1 at 2010-05-16 23:28:08) [GET]
+  [4;36;1mArticle Load (1.0ms)[0m   [0;1mSELECT * FROM `articles` [0m
+Rendering template within layouts/application
+Rendering articles/index
+  [4;35;1mArticle Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+Rendered articles/_article (1.0ms)
+Rendered articles/_article (1.0ms)
+Rendered articles/_article (2.0ms)
+Rendered shared/_menu (1.0ms)
+Completed in 19ms (View: 10, DB: 4) | 200 OK [http://localhost/articles]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#index (for 127.0.0.1 at 2010-05-16 23:28:44) [GET]
+  [4;36;1mArticle Load (0.0ms)[0m   [0;1mSELECT * FROM `articles` [0m
+Rendering template within layouts/application
+Rendering articles/index
+  [4;35;1mArticle Columns (4.0ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+Rendered articles/_article (0.0ms)
+Rendered articles/_article (1.0ms)
+Rendered articles/_article (1.0ms)
+Rendered shared/_menu (1.0ms)
+Completed in 46ms (View: 36, DB: 4) | 200 OK [http://localhost/articles]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#show (for 127.0.0.1 at 2010-05-16 23:28:45) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mArticle Columns (4.0ms)[0m   [0;1mSHOW FIELDS FROM `articles`[0m
+  [4;35;1mArticle Load (2.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 2) [0m
+  [4;36;1mArticle Load (0.0ms)[0m   [0;1mSELECT * FROM `articles` [0m
+Rendering template within layouts/application
+Rendering articles/show
+Rendered articles/_article (1.0ms)
+Rendered shared/_menu (0.0ms)
+Completed in 22ms (View: 10, DB: 6) | 200 OK [http://localhost/articles/2]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#show (for 127.0.0.1 at 2010-05-16 23:28:46) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mArticle Columns (4.0ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+  [4;36;1mArticle Load (2.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 1) [0m
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` [0m
+Rendering template within layouts/application
+Rendering articles/show
+Rendered articles/_article (1.0ms)
+Rendered shared/_menu (0.0ms)
+Completed in 19ms (View: 7, DB: 6) | 200 OK [http://localhost/articles/1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#show (for 127.0.0.1 at 2010-05-16 23:30:50) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mArticle Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `articles`[0m
+  [4;35;1mArticle Load (1.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 1) [0m
+  [4;36;1mArticle Load (0.0ms)[0m   [0;1mSELECT * FROM `articles` [0m
+Rendering template within layouts/application
+Rendering articles/show
+Rendered articles/_article (0.0ms)
+Rendered shared/_menu (1.0ms)
+Completed in 19ms (View: 8, DB: 4) | 200 OK [http://localhost/articles/1]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#edit (for 127.0.0.1 at 2010-05-16 23:31:10) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mArticle Columns (4.0ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+  [4;36;1mArticle Load (2.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering articles/edit
+Rendered shared/_menu (0.0ms)
+Completed in 22ms (View: 10, DB: 7) | 200 OK [http://localhost/articles/1/edit]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#destroy (for 127.0.0.1 at 2010-05-16 23:31:39) [DELETE]
+  Parameters: {"authenticity_token"=>"asjObny3DHBvWqsuyJCJwncXSMjQAMkyO6cWKZxRTsg=", "id"=>"1"}
+  [4;35;1mArticle Columns (4.0ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+  [4;36;1mArticle Load (2.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 1) [0m
+  [4;35;1mSQL (32.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mArticle Destroy (30.0ms)[0m   [0;1mDELETE FROM `articles` WHERE `id` = 1[0m
+  [4;35;1mSQL (70.0ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3003/articles
+Completed in 144ms (DB: 139) | 302 Found [http://localhost/articles/1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#index (for 127.0.0.1 at 2010-05-16 23:31:40) [GET]
+  [4;36;1mArticle Load (0.0ms)[0m   [0;1mSELECT * FROM `articles` [0m
+Rendering template within layouts/application
+Rendering articles/index
+  [4;35;1mArticle Columns (4.0ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+Rendered articles/_article (1.0ms)
+Rendered articles/_article (1.0ms)
+Rendered shared/_menu (0.0ms)
+Completed in 22ms (View: 11, DB: 4) | 200 OK [http://localhost/articles]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#new (for 127.0.0.1 at 2010-05-16 23:31:48) [GET]
+  [4;36;1mArticle Columns (4.0ms)[0m   [0;1mSHOW FIELDS FROM `articles`[0m
+Rendering template within layouts/application
+Rendering articles/new
+Rendered shared/_menu (1.0ms)
+Completed in 19ms (View: 10, DB: 4) | 200 OK [http://localhost/articles/new]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#create (for 127.0.0.1 at 2010-05-16 23:32:00) [POST]
+  Parameters: {"article"=>{"photo"=>"", "body"=>"CASH FLOW POSITIVE properties are available today! The credit boom and bust has created opportunities for investors that haven’t been possible in years.\r\n\r\nOur local knowledge and experience in the Palm Springs area rental market make us the perfect partner to help you build or add to your property investment portfolio.\r\n\r\nWhether you are looking for long term holds or flipping foreclosures, we know where the deals are. Our agents are active in the market every day. We are in contact constantly with agents and attorneys, search newly listed properties, watch Notice of Default filings, and subscribe to RealtyTrac and Foreclosure.com for the latest foreclosure information.\r\n\r\nOver 300 owners trust our rental division, The Rental Connection, with their property. This experience and up to the minute understanding of rental rates and vacancies give us an insight that traditional salespeople do not have. We are only interested in helping you buy a property that we KNOW is rentable. Knowing little things like evening wind direction, airport noise, and HOA stability help you make an informed investment decision.", "title"=>"Investing in Palm Springs", "sticky"=>"0"}, "commit"=>"Create", "authenticity_token"=>"asjObny3DHBvWqsuyJCJwncXSMjQAMkyO6cWKZxRTsg="}
+  [4;35;1mArticle Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mArticle Load (29.0ms)[0m   [0mSELECT `articles`.id FROM `articles` WHERE (`articles`.`title` = BINARY 'Investing in Palm Springs') LIMIT 1[0m
+  [4;36;1mArticle Create (58.0ms)[0m   [0;1mINSERT INTO `articles` (`photo`, `created_at`, `title`, `body`, `updated_at`, `sticky`) VALUES('', '2010-05-17 03:32:00', 'Investing in Palm Springs', 'CASH FLOW POSITIVE properties are available today! The credit boom and bust has created opportunities for investors that haven’t been possible in years.\r\n\r\nOur local knowledge and experience in the Palm Springs area rental market make us the perfect partner to help you build or add to your property investment portfolio.\r\n\r\nWhether you are looking for long term holds or flipping foreclosures, we know where the deals are. Our agents are active in the market every day. We are in contact constantly with agents and attorneys, search newly listed properties, watch Notice of Default filings, and subscribe to RealtyTrac and Foreclosure.com for the latest foreclosure information.\r\n\r\nOver 300 owners trust our rental division, The Rental Connection, with their property. This experience and up to the minute understanding of rental rates and vacancies give us an insight that traditional salespeople do not have. We are only interested in helping you buy a property that we KNOW is rentable. Knowing little things like evening wind direction, airport noise, and HOA stability help you make an informed investment decision.', '2010-05-17 03:32:00', 0)[0m
+  [4;35;1mSQL (30.0ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3003/articles/5
+Completed in 132ms (DB: 120) | 302 Found [http://localhost/articles]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#show (for 127.0.0.1 at 2010-05-16 23:32:00) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mArticle Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `articles`[0m
+  [4;35;1mArticle Load (1.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 5) [0m
+  [4;36;1mArticle Load (1.0ms)[0m   [0;1mSELECT * FROM `articles` [0m
+Rendering template within layouts/application
+Rendering articles/show
+Rendered articles/_article (1.0ms)
+Rendered shared/_menu (1.0ms)
+Completed in 24ms (View: 12, DB: 6) | 200 OK [http://localhost/articles/5]
