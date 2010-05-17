@@ -25,8 +25,8 @@ production:
   adapter: mysql
   encoding: utf8
   reconnect: false
-  database: realty_production
+  database: clavatra_realty
   pool: 5
-  username: root
-  password: nbuser
+  username: realty
+  password: zyKoQY2pg8yC4hRR1x8R
   host: localhost
