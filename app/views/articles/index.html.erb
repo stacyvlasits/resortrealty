@@ -1,0 +1,15 @@
+
+<div id="sidebar1">
+	<h2>Articles</h2>
+	<h3><%= link_to 'See All Articles', articles_path %></h3>
+	<% for article in @articles %>
+		<h3><%= link_to h(article.title), article %></h3>
+	<% end %>
+</div>
+<div id="mainContent">
+	<h2>Recent Articles</h2>
+	<%= render :partial => @articles %>
+<% if admin? %>
+	<%= link_to 'New article', new_article_path %>
+<% end %>
+</div>
