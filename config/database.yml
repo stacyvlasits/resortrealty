@@ -27,6 +27,6 @@ production:
   reconnect: false
   database: clavatra_realty
   pool: 5
-  username: realty
+  username: clavatra_realty
   password: zyKoQY2pg8yC4hRR1x8R
   host: localhost
