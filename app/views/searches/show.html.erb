@@ -1,0 +1,12 @@
+<div id="sidebar1">
+<!-- this probably should be rendered as a partial see index -->
+	<h2>Searches</h2>
+	<p id="select">Show: <%= link_to 'All', searches_path %></p>
+	<% for search in @searches %>
+		<h4><%= link_to h(search.title), search %></h4>
+	<% end %>
+</div>
+<div id="mainContent">
+	<%= render :partial => @search %>	
+	<%= link_to 'See All Searches', searches_path %>
+</div>

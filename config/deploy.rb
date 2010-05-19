@@ -1,24 +1,39 @@
-ssh_options[:forward_agent] = true
-default_run_options[:pty] = true 
 
-set :use_sudo, false 
-set :application, "realty"
+
+set :user, 'clavatra'
+set :scm, :git 
+set :scm_username, "stacyvlasits" 
+set :scm_password, "ToFana0423" 
 set :repository,  "git://github.com/stacyvlasits/realty.git"
-set :deploy_to, "Library/Rails/#{application}"
-set :mongrel_conf, "#{current_path}/config/mongrel_cluster.yml"
-set :user, "clavatra"
-set :scm, :git
-set :scm_passphrase, "JR1L5B7da9BoEqNLXYu5" #This is your custom users password
-set :branch, "master"
-
-# Or: `accurev`, `bzr`, `cvs`, `darcs`, `git`, `mercurial`, `perforce`, `subversion` or `none`
+set :server, 'resortrealty.railsplayground.net'
+set :application, 'realty'
+set :applicationdir, 'realty/public' 
+# set :repository, "http://#{svnserver}/svn/#{application}/trunk"
 
 role :web, "resortrealty.clavat.railsplayground.net"                          # Your HTTP server, Apache/etc
 role :app, "resortrealty.clavat.railsplayground.net"                          # This may be the same as your `Web` server
 role :db,  "resortrealty.clavat.railsplayground.net", :primary => true # This is where Rails migrations will run
-#role :db,  "your slave db-server here"
-default_run_options[:pty] = true
 
+set :deploy_to, "/home/#{user}/#{applicationdir}" 
+ssh_options[:forward_agent] = true
+default_run_options[:pty] = true 
+set :deploy_via, :remote_cache
+set :use_sudo, false 
+set :mongrel_conf, "#{current_path}/config/mongrel_cluster.yml"
+set :branch, "master"
+
+
+
+task :restart, :roles => :app do
+end
+
+task :after_update_code, :roles => [:web, :db, :app] do
+  run "chmod 755 #{release_path}/public -R" 
+end
+
+
+
+# Or: `accurev`, `bzr`, `cvs`, `darcs`, `git`, `mercurial`, `perforce`, `subversion` or `none`
 
 
 

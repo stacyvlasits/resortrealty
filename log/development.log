@@ -9138,3 +9138,2113 @@ Rendering articles/show
 Rendered articles/_article (1.0ms)
 Rendered shared/_menu (1.0ms)
 Completed in 24ms (View: 12, DB: 6) | 200 OK [http://localhost/articles/5]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#index (for 127.0.0.1 at 2010-05-18 14:11:55) [GET]
+  [4;36;1mArticle Load (25.0ms)[0m   [0;1mSELECT * FROM `articles` [0m
+Rendering template within layouts/application
+Rendering articles/index
+  [4;35;1mArticle Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+Rendered articles/_article (5.0ms)
+Rendered articles/_article (2.0ms)
+Rendered articles/_article (1.0ms)
+Rendered shared/_menu (23.0ms)
+Completed in 1959ms (View: 1922, DB: 28) | 200 OK [http://localhost/articles]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#show (for 127.0.0.1 at 2010-05-18 14:11:59) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mArticle Columns (20.0ms)[0m   [0;1mSHOW FIELDS FROM `articles`[0m
+  [4;35;1mArticle Load (1.0ms)[0m   [0mSELECT * FROM `articles` WHERE (`articles`.`id` = 2) [0m
+  [4;36;1mArticle Load (0.0ms)[0m   [0;1mSELECT * FROM `articles` [0m
+Rendering template within layouts/application
+Rendering articles/show
+Rendered articles/_article (1.0ms)
+Rendered shared/_menu (1.0ms)
+Completed in 106ms (View: 77, DB: 22) | 200 OK [http://localhost/articles/2]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#show (for 127.0.0.1 at 2010-05-18 14:12:01) [GET]
+  Parameters: {"id"=>"4"}
+  [4;35;1mArticle Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+  [4;36;1mArticle Load (1.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 4) [0m
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` [0m
+Rendering template within layouts/application
+Rendering articles/show
+Rendered articles/_article (1.0ms)
+Rendered shared/_menu (0.0ms)
+Completed in 17ms (View: 6, DB: 4) | 200 OK [http://localhost/articles/4]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#index (for 127.0.0.1 at 2010-05-18 14:12:02) [GET]
+  [4;36;1mArticle Load (0.0ms)[0m   [0;1mSELECT * FROM `articles` [0m
+Rendering template within layouts/application
+Rendering articles/index
+  [4;35;1mArticle Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+Rendered articles/_article (1.0ms)
+Rendered articles/_article (1.0ms)
+Rendered articles/_article (1.0ms)
+Rendered shared/_menu (1.0ms)
+Completed in 18ms (View: 9, DB: 3) | 200 OK [http://localhost/articles]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#index (for 127.0.0.1 at 2010-05-18 14:12:03) [GET]
+  [4;36;1mArticle Load (0.0ms)[0m   [0;1mSELECT * FROM `articles` [0m
+Rendering template within layouts/application
+Rendering articles/index
+  [4;35;1mArticle Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+Rendered articles/_article (1.0ms)
+Rendered articles/_article (2.0ms)
+Rendered articles/_article (1.0ms)
+Rendered shared/_menu (0.0ms)
+Completed in 18ms (View: 9, DB: 3) | 200 OK [http://localhost/articles]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ResourcesController#index (for 127.0.0.1 at 2010-05-18 14:12:04) [GET]
+  [4;36;1mResource Load (29.0ms)[0m   [0;1mSELECT * FROM `resources` [0m
+Rendering template within layouts/application
+Rendering resources/index
+  [4;35;1mResource Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `resources`[0m
+Rendered resources/_resource (4.0ms)
+Rendered resources/_resource (1.0ms)
+Rendered shared/_menu (0.0ms)
+Completed in 60ms (View: 21, DB: 31) | 200 OK [http://localhost/resources]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#index (for 127.0.0.1 at 2010-05-18 14:12:05) [GET]
+  [4;36;1mArticle Load (1.0ms)[0m   [0;1mSELECT * FROM `articles` [0m
+Rendering template within layouts/application
+Rendering articles/index
+  [4;35;1mArticle Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+Rendered articles/_article (1.0ms)
+Rendered articles/_article (1.0ms)
+Rendered articles/_article (1.0ms)
+Rendered shared/_menu (0.0ms)
+Completed in 17ms (View: 9, DB: 4) | 200 OK [http://localhost/articles]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-05-18 14:12:15) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered shared/_menu (0.0ms)
+Completed in 12ms (View: 11, DB: 0) | 200 OK [http://localhost/login]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-05-18 14:12:20) [POST]
+  Parameters: {"commit"=>"Login", "authenticity_token"=>"WodEOQhxbTzuSaYdcsElclnx72p9co5S3wwzpwyIcwY=", "username"=>"asdf", "password"=>"foobar"}
+Redirected to http://localhost:3003/home
+Completed in 26ms (DB: 0) | 302 Found [http://localhost/sessions]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-05-18 14:12:20) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Rendered shared/_menu (0.0ms)
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/home]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#index (for 127.0.0.1 at 2010-05-18 14:12:22) [GET]
+  [4;36;1mArticle Load (1.0ms)[0m   [0;1mSELECT * FROM `articles` [0m
+Rendering template within layouts/application
+Rendering articles/index
+  [4;35;1mArticle Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+Rendered articles/_article (1.0ms)
+Rendered articles/_article (2.0ms)
+Rendered articles/_article (1.0ms)
+Rendered shared/_menu (0.0ms)
+Completed in 17ms (View: 9, DB: 4) | 200 OK [http://localhost/articles]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-05-18 14:12:23) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Rendered shared/_menu (1.0ms)
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/home]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionsController#destroy (for 127.0.0.1 at 2010-05-18 14:12:24) [GET]
+Redirected to http://localhost:3003/home
+Completed in 2ms (DB: 0) | 302 Found [http://localhost/logout]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-05-18 14:12:24) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Rendered shared/_menu (0.0ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/home]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ResourcesController#index (for 127.0.0.1 at 2010-05-18 14:17:47) [GET]
+  [4;36;1mResource Load (0.0ms)[0m   [0;1mSELECT * FROM `resources` [0m
+Rendering template within layouts/application
+Rendering resources/index
+  [4;35;1mResource Columns (14.0ms)[0m   [0mSHOW FIELDS FROM `resources`[0m
+Rendered resources/_resource (1.0ms)
+Rendered resources/_resource (1.0ms)
+Rendered shared/_menu (1.0ms)
+Completed in 28ms (View: 8, DB: 14) | 200 OK [http://localhost/resources]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#index (for 127.0.0.1 at 2010-05-18 14:17:50) [GET]
+  [4;36;1mArticle Load (0.0ms)[0m   [0;1mSELECT * FROM `articles` [0m
+Rendering template within layouts/application
+Rendering articles/index
+  [4;35;1mArticle Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+Rendered articles/_article (1.0ms)
+Rendered articles/_article (2.0ms)
+Rendered articles/_article (1.0ms)
+Rendered shared/_menu (1.0ms)
+Completed in 18ms (View: 9, DB: 3) | 200 OK [http://localhost/articles]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#index (for 127.0.0.1 at 2010-05-18 14:24:11) [GET]
+  [4;36;1mArticle Load (1.0ms)[0m   [0;1mSELECT * FROM `articles` [0m
+Rendering template within layouts/application
+Rendering articles/index
+  [4;35;1mArticle Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+Rendered articles/_article (1.0ms)
+Rendered articles/_article (1.0ms)
+Rendered articles/_article (1.0ms)
+Rendered shared/_menu (1.0ms)
+Completed in 23ms (View: 12, DB: 5) | 200 OK [http://localhost/articles]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#index (for 127.0.0.1 at 2010-05-18 14:24:15) [GET]
+  [4;36;1mSearch Load (0.0ms)[0m   [0;1mMysql::Error: Table 'realty_development.searches' doesn't exist: SELECT * FROM `searches` [0m
+
+ActiveRecord::StatementInvalid (Mysql::Error: Table 'realty_development.searches' doesn't exist: SELECT * FROM `searches` ):
+  app/controllers/searches_controller.rb:5:in `index'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (56.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (25.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (15.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateArticles (20100513033524)
+Migrating to CreateResources (20100513173509)
+Migrating to AddNameToResources (20100513173924)
+Migrating to CreateSearches (20100518181416)
+  [4;36;1mSQL (109.0ms)[0m   [0;1mCREATE TABLE `searches` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `search` varchar(255), `title` varchar(255), `order` int(11), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (25.0ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100518181416')[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (3.0ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+  [4;36;1mSQL (5.0ms)[0m   [0;1mdescribe `articles`[0m
+  [4;35;1mSQL (2.0ms)[0m   [0mSHOW KEYS FROM `articles`[0m
+  [4;36;1mSQL (3.0ms)[0m   [0;1mSHOW FIELDS FROM `resources`[0m
+  [4;35;1mSQL (4.0ms)[0m   [0mdescribe `resources`[0m
+  [4;36;1mSQL (2.0ms)[0m   [0;1mSHOW KEYS FROM `resources`[0m
+  [4;35;1mSQL (3.0ms)[0m   [0mSHOW FIELDS FROM `searches`[0m
+  [4;36;1mSQL (5.0ms)[0m   [0;1mdescribe `searches`[0m
+  [4;35;1mSQL (2.0ms)[0m   [0mSHOW KEYS FROM `searches`[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#index (for 127.0.0.1 at 2010-05-18 14:25:02) [GET]
+  [4;35;1mSearch Load (0.0ms)[0m   [0mSELECT * FROM `searches` [0m
+Rendering template within layouts/searches
+Rendering searches/index
+Completed in 16ms (View: 11, DB: 0) | 200 OK [http://localhost/searches]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#index (for 127.0.0.1 at 2010-05-18 14:25:04) [GET]
+  [4;36;1mSearch Load (0.0ms)[0m   [0;1mSELECT * FROM `searches` [0m
+Rendering template within layouts/searches
+Rendering searches/index
+Completed in 7ms (View: 2, DB: 1) | 200 OK [http://localhost/searches]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#show (for 127.0.0.1 at 2010-05-18 14:26:04) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mArticle Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+  [4;36;1mArticle Load (1.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 2) [0m
+  [4;35;1mArticle Load (1.0ms)[0m   [0mSELECT * FROM `articles` [0m
+Rendering template within layouts/application
+Rendering articles/show
+Rendered articles/_article (0.0ms)
+Rendered shared/_menu (0.0ms)
+Completed in 17ms (View: 6, DB: 5) | 200 OK [http://localhost/articles/2]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#index (for 127.0.0.1 at 2010-05-18 14:26:07) [GET]
+  [4;36;1mSearch Load (0.0ms)[0m   [0;1mSELECT * FROM `searches` [0m
+Rendering template within layouts/searches
+Rendering searches/index
+Completed in 7ms (View: 2, DB: 1) | 200 OK [http://localhost/searches]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#show (for 127.0.0.1 at 2010-05-18 14:27:38) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mArticle Columns (4.0ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+  [4;36;1mArticle Load (2.0ms)[0m   [0;1mSELECT * FROM `articles` WHERE (`articles`.`id` = 2) [0m
+  [4;35;1mArticle Load (0.0ms)[0m   [0mSELECT * FROM `articles` [0m
+Rendering template within layouts/application
+Rendering articles/show
+Rendered articles/_article (1.0ms)
+Rendered shared/_menu (0.0ms)
+Completed in 20ms (View: 8, DB: 7) | 200 OK [http://localhost/articles/2]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#index (for 127.0.0.1 at 2010-05-18 14:27:39) [GET]
+  [4;36;1mSearch Load (0.0ms)[0m   [0;1mSELECT * FROM `searches` [0m
+Rendering template within layouts/application
+Rendering searches/index
+Rendered shared/_menu (0.0ms)
+Completed in 8ms (View: 2, DB: 1) | 200 OK [http://localhost/searches]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#index (for 127.0.0.1 at 2010-05-18 14:27:50) [GET]
+  [4;35;1mSearch Load (0.0ms)[0m   [0mSELECT * FROM `searches` [0m
+Rendering template within layouts/application
+Rendering searches/index
+Rendered shared/_menu (0.0ms)
+Completed in 11ms (View: 5, DB: 0) | 200 OK [http://localhost/searches]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-05-18 14:27:54) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered shared/_menu (0.0ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/login]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-05-18 14:27:58) [POST]
+  Parameters: {"commit"=>"Login", "authenticity_token"=>"1mQnxThc+iBJqL9hspcxrKkSzFsPhEzcZbMMPeQ7f2o=", "username"=>"", "password"=>"foobar"}
+Redirected to http://localhost:3003/home
+Completed in 2ms (DB: 0) | 302 Found [http://localhost/sessions]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-05-18 14:27:58) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Rendered shared/_menu (1.0ms)
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/home]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#index (for 127.0.0.1 at 2010-05-18 14:28:00) [GET]
+  [4;36;1mSearch Load (0.0ms)[0m   [0;1mSELECT * FROM `searches` [0m
+Rendering template within layouts/application
+Rendering searches/index
+Rendered shared/_menu (0.0ms)
+Completed in 8ms (View: 2, DB: 0) | 200 OK [http://localhost/searches]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#new (for 127.0.0.1 at 2010-05-18 14:28:02) [GET]
+  [4;35;1mSearch Columns (12.0ms)[0m   [0mSHOW FIELDS FROM `searches`[0m
+Rendering template within layouts/application
+Rendering searches/new
+Rendered shared/_menu (1.0ms)
+Completed in 25ms (View: 8, DB: 13) | 200 OK [http://localhost/searches/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#create (for 127.0.0.1 at 2010-05-18 14:30:52) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"1mQnxThc+iBJqL9hspcxrKkSzFsPhEzcZbMMPeQ7f2o=", "search"=>{"title"=>"Steve's Listings", "order"=>"1", "search"=>"http://desertareamls.rapmls.com/scripts/mgrqispi.dll?APPNAME=Desertarea&PRGNAME=MLSLogin&ARGUMENT=A6NyxhjmUYSppCGgcP2%2FdAW4BEIXMxmUFH%2B%2FpixHRBw%3D&KeyRid=1"}}
+  [4;36;1mSearch Columns (4.0ms)[0m   [0;1mSHOW FIELDS FROM `searches`[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSearch Create (0.0ms)[0m   [0;1mINSERT INTO `searches` (`created_at`, `title`, `updated_at`, `order`, `search`) VALUES('2010-05-18 18:30:52', 'Steve\'s Listings', '2010-05-18 18:30:52', 1, 'http://desertareamls.rapmls.com/scripts/mgrqispi.dll?APPNAME=Desertarea&PRGNAME=MLSLogin&ARGUMENT=A6NyxhjmUYSppCGgcP2%2FdAW4BEIXMxmUFH%2B%2FpixHRBw%3D&KeyRid=1')[0m
+  [4;35;1mSQL (42.0ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3003/searches/1
+Completed in 54ms (DB: 48) | 302 Found [http://localhost/searches]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#show (for 127.0.0.1 at 2010-05-18 14:30:53) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mSearch Columns (4.0ms)[0m   [0;1mSHOW FIELDS FROM `searches`[0m
+  [4;35;1mSearch Load (2.0ms)[0m   [0mSELECT * FROM `searches` WHERE (`searches`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering searches/show
+Rendered shared/_menu (1.0ms)
+Completed in 17ms (View: 7, DB: 7) | 200 OK [http://localhost/searches/1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateArticles (20100513033524)
+Migrating to CreateResources (20100513173509)
+Migrating to AddNameToResources (20100513173924)
+Migrating to CreateSearches (20100518181416)
+Migrating to AddCommentsToSearches (20100518183218)
+  [4;36;1mSQL (260.0ms)[0m   [0;1mALTER TABLE `searches` ADD `comment` text[0m
+  [4;35;1mSQL (25.0ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100518183218')[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (3.0ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+  [4;36;1mSQL (4.0ms)[0m   [0;1mdescribe `articles`[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSHOW KEYS FROM `articles`[0m
+  [4;36;1mSQL (2.0ms)[0m   [0;1mSHOW FIELDS FROM `resources`[0m
+  [4;35;1mSQL (4.0ms)[0m   [0mdescribe `resources`[0m
+  [4;36;1mSQL (2.0ms)[0m   [0;1mSHOW KEYS FROM `resources`[0m
+  [4;35;1mSQL (3.0ms)[0m   [0mSHOW FIELDS FROM `searches`[0m
+  [4;36;1mSQL (5.0ms)[0m   [0;1mdescribe `searches`[0m
+  [4;35;1mSQL (2.0ms)[0m   [0mSHOW KEYS FROM `searches`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ResourcesController#index (for 127.0.0.1 at 2010-05-18 14:36:17) [GET]
+  [4;36;1mResource Load (0.0ms)[0m   [0;1mSELECT * FROM `resources` [0m
+Rendering template within layouts/application
+Rendering resources/index
+  [4;35;1mResource Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `resources`[0m
+Rendered resources/_resource (3.0ms)
+Rendered resources/_resource (2.0ms)
+Rendered shared/_menu (1.0ms)
+Completed in 19ms (View: 10, DB: 3) | 200 OK [http://localhost/resources]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#index (for 127.0.0.1 at 2010-05-18 14:36:33) [GET]
+  [4;36;1mSearch Load (0.0ms)[0m   [0;1mSELECT * FROM `searches` [0m
+Rendering template within layouts/application
+Rendering searches/index
+  [4;35;1mSearch Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `searches`[0m
+Rendered shared/_menu (0.0ms)
+Completed in 18ms (View: 9, DB: 3) | 200 OK [http://localhost/searches]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#new (for 127.0.0.1 at 2010-05-18 14:36:37) [GET]
+  [4;36;1mSearch Columns (30.0ms)[0m   [0;1mSHOW FIELDS FROM `searches`[0m
+Rendering template within layouts/application
+Rendering searches/new
+Rendered shared/_menu (0.0ms)
+Completed in 41ms (View: 5, DB: 31) | 200 OK [http://localhost/searches/new]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#new (for 127.0.0.1 at 2010-05-18 14:38:09) [GET]
+  [4;35;1mSearch Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `searches`[0m
+Rendering template within layouts/application
+Rendering searches/new
+
+ActionView::TemplateError (undefined local variable or method `e' for #<ActionView::Base:0x14dfa920>) on line #7 of app/views/searches/new.html.erb:
+4:   <%= f.error_messages %>
+5: 
+6:   <p>
+7:     <%= f.label :search, URL (e.g. www.example.com) %><br />
+8:     <%= f.text_field :search %>
+9:   </p>
+10:   <p>
+
+    app/views/searches/new.html.erb:7
+    app/views/searches/new.html.erb:3
+    app/controllers/searches_controller.rb:31:in `new'
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (68.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#new (for 127.0.0.1 at 2010-05-18 14:38:38) [GET]
+  [4;36;1mSearch Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `searches`[0m
+Rendering template within layouts/application
+Rendering searches/new
+Rendered shared/_menu (0.0ms)
+Completed in 17ms (View: 8, DB: 4) | 200 OK [http://localhost/searches/new]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#create (for 127.0.0.1 at 2010-05-18 14:39:15) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"1mQnxThc+iBJqL9hspcxrKkSzFsPhEzcZbMMPeQ7f2o=", "search"=>{"comment"=>"Here you can find all the properties Steve is currently listing.", "title"=>"Steve's Listings", "order"=>"1", "search"=>"http://desertareamls.rapmls.com/scripts/mgrqispi.dll?APPNAME=Desertarea&PRGNAME=MLSLogin&ARGUMENT=A6NyxhjmUYSppCGgcP2%2FdAW4BEIXMxmUFH%2B%2FpixHRBw%3D&KeyRid=1"}}
+  [4;35;1mSearch Columns (28.0ms)[0m   [0mSHOW FIELDS FROM `searches`[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSearch Create (0.0ms)[0m   [0mINSERT INTO `searches` (`comment`, `created_at`, `title`, `updated_at`, `order`, `search`) VALUES('Here you can find all the properties Steve is currently listing.', '2010-05-18 18:39:15', 'Steve\'s Listings', '2010-05-18 18:39:15', 1, 'http://desertareamls.rapmls.com/scripts/mgrqispi.dll?APPNAME=Desertarea&PRGNAME=MLSLogin&ARGUMENT=A6NyxhjmUYSppCGgcP2%2FdAW4BEIXMxmUFH%2B%2FpixHRBw%3D&KeyRid=1')[0m
+  [4;36;1mSQL (61.0ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3003/searches/2
+Completed in 98ms (DB: 89) | 302 Found [http://localhost/searches]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#show (for 127.0.0.1 at 2010-05-18 14:39:15) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mSearch Columns (4.0ms)[0m   [0mSHOW FIELDS FROM `searches`[0m
+  [4;36;1mSearch Load (2.0ms)[0m   [0;1mSELECT * FROM `searches` WHERE (`searches`.`id` = 2) [0m
+Rendering template within layouts/application
+Rendering searches/show
+Rendered shared/_menu (0.0ms)
+Completed in 14ms (View: 4, DB: 6) | 200 OK [http://localhost/searches/2]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#show (for 127.0.0.1 at 2010-05-18 14:41:30) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mSearch Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `searches`[0m
+  [4;36;1mSearch Load (1.0ms)[0m   [0;1mSELECT * FROM `searches` WHERE (`searches`.`id` = 2) [0m
+Rendering template within layouts/application
+Rendering searches/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #5 of app/views/searches/show.html.erb:
+2: <!-- this probably should be rendered as a partial see index -->
+3: 	<h2>Searches</h2>
+4: 	<p id="select">Show: <%= link_to 'All', searches_path %></p>
+5: 	<% for search in @searches %>
+6: 		<h4><%= link_to h(search.title), search %></h4>
+7: 	<% end %>
+8: </div>
+
+    app/views/searches/show.html.erb:5
+    app/controllers/searches_controller.rb:20:in `show'
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (37.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#show (for 127.0.0.1 at 2010-05-18 14:42:16) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mSearch Columns (4.0ms)[0m   [0mSHOW FIELDS FROM `searches`[0m
+  [4;36;1mSearch Load (2.0ms)[0m   [0;1mSELECT * FROM `searches` WHERE (`searches`.`id` = 2) [0m
+  [4;35;1mSearch Load (0.0ms)[0m   [0mSELECT * FROM `searches` [0m
+Rendering template within layouts/application
+Rendering searches/show
+
+ActionView::TemplateError (undefined method `link' for #<Search:0x14f904a8>) on line #2 of app/views/searches/_search.html.erb:
+1: <% div_for search do %>
+2: 	<h2><%= link_to h(search.title), "http://" + search.link, :confirm=> "Now leaving Resort Realty..." %></h2>
+3: 	<%= simple_format h(search.comment) %>
+4: 		<% if admin? %>
+5: 		<%= link_to 'Edit', edit_resource_path(resource) %> |
+
+    app/views/searches/_search.html.erb:2
+    app/views/searches/_search.html.erb:1
+    app/views/searches/show.html.erb:10
+    app/controllers/searches_controller.rb:20:in `show'
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (49.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#show (for 127.0.0.1 at 2010-05-18 14:42:49) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mSearch Columns (4.0ms)[0m   [0;1mSHOW FIELDS FROM `searches`[0m
+  [4;35;1mSearch Load (2.0ms)[0m   [0mSELECT * FROM `searches` WHERE (`searches`.`id` = 2) [0m
+  [4;36;1mSearch Load (0.0ms)[0m   [0;1mSELECT * FROM `searches` [0m
+Rendering template within layouts/application
+Rendering searches/show
+
+ActionView::TemplateError (undefined local variable or method `resource' for #<ActionView::Base:0x14d97218>) on line #5 of app/views/searches/_search.html.erb:
+2: 	<h2><%= link_to h(search.title), "http://" + search.search, :confirm=> "Now leaving Resort Realty..." %></h2>
+3: 	<%= simple_format h(search.comment) %>
+4: 		<% if admin? %>
+5: 		<%= link_to 'Edit', edit_resource_path(resource) %> |
+6: 		<%= link_to 'Destroy', resource, :method => :delete, :confirm => "Are you sure?" %> |
+7: 	<% end %>
+8: <% end %>
+
+    app/views/searches/_search.html.erb:5
+    app/views/searches/_search.html.erb:1
+    app/views/searches/show.html.erb:10
+    app/controllers/searches_controller.rb:20:in `show'
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (77.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#new (for 127.0.0.1 at 2010-05-18 14:42:57) [GET]
+  [4;35;1mSearch Columns (17.0ms)[0m   [0mSHOW FIELDS FROM `searches`[0m
+Rendering template within layouts/application
+Rendering searches/new
+Rendered shared/_menu (0.0ms)
+Completed in 28ms (View: 6, DB: 17) | 200 OK [http://localhost/searches/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#create (for 127.0.0.1 at 2010-05-18 14:42:59) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"1mQnxThc+iBJqL9hspcxrKkSzFsPhEzcZbMMPeQ7f2o=", "search"=>{"comment"=>"Here you can find all the properties Steve is currently listing.", "title"=>"Steve's Listings", "order"=>"1", "search"=>"http://desertareamls.rapmls.com/scripts/mgrqispi.dll?APPNAME=Desertarea&PRGNAME=MLSLogin&ARGUMENT=A6NyxhjmUYSppCGgcP2%2FdAW4BEIXMxmUFH%2B%2FpixHRBw%3D&KeyRid=1"}}
+  [4;36;1mSearch Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `searches`[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSearch Create (0.0ms)[0m   [0;1mINSERT INTO `searches` (`comment`, `created_at`, `title`, `updated_at`, `order`, `search`) VALUES('Here you can find all the properties Steve is currently listing.', '2010-05-18 18:42:59', 'Steve\'s Listings', '2010-05-18 18:42:59', 1, 'http://desertareamls.rapmls.com/scripts/mgrqispi.dll?APPNAME=Desertarea&PRGNAME=MLSLogin&ARGUMENT=A6NyxhjmUYSppCGgcP2%2FdAW4BEIXMxmUFH%2B%2FpixHRBw%3D&KeyRid=1')[0m
+  [4;35;1mSQL (70.0ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3003/searches/3
+Completed in 83ms (DB: 74) | 302 Found [http://localhost/searches]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#show (for 127.0.0.1 at 2010-05-18 14:42:59) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mSearch Columns (4.0ms)[0m   [0;1mSHOW FIELDS FROM `searches`[0m
+  [4;35;1mSearch Load (2.0ms)[0m   [0mSELECT * FROM `searches` WHERE (`searches`.`id` = 3) [0m
+  [4;36;1mSearch Load (0.0ms)[0m   [0;1mSELECT * FROM `searches` [0m
+Rendering template within layouts/application
+Rendering searches/show
+
+ActionView::TemplateError (undefined local variable or method `resource' for #<ActionView::Base:0x14dd71f0>) on line #5 of app/views/searches/_search.html.erb:
+2: 	<h2><%= link_to h(search.title), "http://" + search.search, :confirm=> "Now leaving Resort Realty..." %></h2>
+3: 	<%= simple_format h(search.comment) %>
+4: 		<% if admin? %>
+5: 		<%= link_to 'Edit', edit_resource_path(resource) %> |
+6: 		<%= link_to 'Destroy', resource, :method => :delete, :confirm => "Are you sure?" %> |
+7: 	<% end %>
+8: <% end %>
+
+    app/views/searches/_search.html.erb:5
+    app/views/searches/_search.html.erb:1
+    app/views/searches/show.html.erb:10
+    app/controllers/searches_controller.rb:20:in `show'
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (80.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#show (for 127.0.0.1 at 2010-05-18 14:44:01) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mSearch Columns (4.0ms)[0m   [0mSHOW FIELDS FROM `searches`[0m
+  [4;36;1mSearch Load (2.0ms)[0m   [0;1mSELECT * FROM `searches` WHERE (`searches`.`id` = 3) [0m
+  [4;35;1mSearch Load (0.0ms)[0m   [0mSELECT * FROM `searches` [0m
+Rendering template within layouts/application
+Rendering searches/show
+
+ActionView::TemplateError (undefined local variable or method `resource' for #<ActionView::Base:0x14eedd10>) on line #5 of app/views/searches/_search.html.erb:
+2: 	<h2><%= link_to h(search.title), "http://" + search.search, :confirm=> "Now leaving Resort Realty..." %></h2>
+3: 	<%= simple_format h(search.comment) %>
+4: 		<% if admin? %>
+5: 		<%= link_to 'Edit', edit_resource_path(resource) %> |
+6: 		<%= link_to 'Destroy', resource, :method => :delete, :confirm => "Are you sure?" %> |
+7: 	<% end %>
+8: <% end %>
+
+    app/views/searches/_search.html.erb:5
+    app/views/searches/_search.html.erb:1
+    app/views/searches/show.html.erb:10
+    app/controllers/searches_controller.rb:20:in `show'
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (48.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#show (for 127.0.0.1 at 2010-05-18 14:44:03) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mSearch Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `searches`[0m
+  [4;35;1mSearch Load (1.0ms)[0m   [0mSELECT * FROM `searches` WHERE (`searches`.`id` = 3) [0m
+  [4;36;1mSearch Load (0.0ms)[0m   [0;1mSELECT * FROM `searches` [0m
+Rendering template within layouts/application
+Rendering searches/show
+
+ActionView::TemplateError (undefined local variable or method `resource' for #<ActionView::Base:0x14fb41a8>) on line #5 of app/views/searches/_search.html.erb:
+2: 	<h2><%= link_to h(search.title), "http://" + search.search, :confirm=> "Now leaving Resort Realty..." %></h2>
+3: 	<%= simple_format h(search.comment) %>
+4: 		<% if admin? %>
+5: 		<%= link_to 'Edit', edit_resource_path(resource) %> |
+6: 		<%= link_to 'Destroy', resource, :method => :delete, :confirm => "Are you sure?" %> |
+7: 	<% end %>
+8: <% end %>
+
+    app/views/searches/_search.html.erb:5
+    app/views/searches/_search.html.erb:1
+    app/views/searches/show.html.erb:10
+    app/controllers/searches_controller.rb:20:in `show'
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (49.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#show (for 127.0.0.1 at 2010-05-18 14:44:06) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mSearch Columns (4.0ms)[0m   [0mSHOW FIELDS FROM `searches`[0m
+  [4;36;1mSearch Load (2.0ms)[0m   [0;1mSELECT * FROM `searches` WHERE (`searches`.`id` = 3) [0m
+  [4;35;1mSearch Load (0.0ms)[0m   [0mSELECT * FROM `searches` [0m
+Rendering template within layouts/application
+Rendering searches/show
+
+ActionView::TemplateError (undefined local variable or method `resource' for #<ActionView::Base:0x14db0d78>) on line #5 of app/views/searches/_search.html.erb:
+2: 	<h2><%= link_to h(search.title), "http://" + search.search, :confirm=> "Now leaving Resort Realty..." %></h2>
+3: 	<%= simple_format h(search.comment) %>
+4: 		<% if admin? %>
+5: 		<%= link_to 'Edit', edit_resource_path(resource) %> |
+6: 		<%= link_to 'Destroy', resource, :method => :delete, :confirm => "Are you sure?" %> |
+7: 	<% end %>
+8: <% end %>
+
+    app/views/searches/_search.html.erb:5
+    app/views/searches/_search.html.erb:1
+    app/views/searches/show.html.erb:10
+    app/controllers/searches_controller.rb:20:in `show'
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (77.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#show (for 127.0.0.1 at 2010-05-18 14:44:38) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mSearch Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `searches`[0m
+  [4;35;1mSearch Load (1.0ms)[0m   [0mSELECT * FROM `searches` WHERE (`searches`.`id` = 3) [0m
+  [4;36;1mSearch Load (0.0ms)[0m   [0;1mSELECT * FROM `searches` [0m
+Rendering template within layouts/application
+Rendering searches/show
+
+ActionView::TemplateError (undefined local variable or method `resource' for #<ActionView::Base:0x14ec9398>) on line #5 of app/views/searches/_search.html.erb:
+2: 	<h2><%= link_to h(search.title), "http://" + search.search, :confirm=> "Now leaving Resort Realty..." %></h2>
+3: 	<%= simple_format h(search.comment) %>
+4: 		<% if admin? %>
+5: 		<%= link_to 'Edit', edit_search_path(resource) %> |
+6: 		<%= link_to 'Destroy', search, :method => :delete, :confirm => "Are you sure?" %> |
+7: 	<% end %>
+8: <% end %>
+
+    app/views/searches/_search.html.erb:5
+    app/views/searches/_search.html.erb:1
+    app/views/searches/show.html.erb:10
+    app/controllers/searches_controller.rb:20:in `show'
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (78.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (1.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#show (for 127.0.0.1 at 2010-05-18 14:44:49) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mSearch Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `searches`[0m
+  [4;36;1mSearch Load (1.0ms)[0m   [0;1mSELECT * FROM `searches` WHERE (`searches`.`id` = 3) [0m
+  [4;35;1mSearch Load (0.0ms)[0m   [0mSELECT * FROM `searches` [0m
+Rendering template within layouts/application
+Rendering searches/show
+Rendered searches/_search (3.0ms)
+
+ActionView::TemplateError (edit_search_url failed to generate from {:controller=>"searches", :action=>"edit", :id=>nil}, expected: {:controller=>"searches", :action=>"edit"}, diff: {:id=>nil}) on line #12 of app/views/searches/show.html.erb:
+9: <div id="mainContent">
+10: 	<%= render :partial => @search %>	
+11: 	<% if admin? %>
+12: 		<%= link_to 'Edit', edit_search_path(@article) %> |
+13: 		<%= link_to 'Destroy', @search, :method => :delete, :confirm => "Are you sure?" %> |
+14: 	<% end %>
+15: 	<%= link_to 'See All Searches', searches_path %>
+
+    (eval):16:in `edit_search_path'
+    app/views/searches/show.html.erb:12
+    app/controllers/searches_controller.rb:20:in `show'
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (40.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#show (for 127.0.0.1 at 2010-05-18 14:45:28) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mSearch Columns (4.0ms)[0m   [0;1mSHOW FIELDS FROM `searches`[0m
+  [4;35;1mSearch Load (2.0ms)[0m   [0mSELECT * FROM `searches` WHERE (`searches`.`id` = 3) [0m
+  [4;36;1mSearch Load (0.0ms)[0m   [0;1mSELECT * FROM `searches` [0m
+Rendering template within layouts/application
+Rendering searches/show
+Rendered searches/_search (3.0ms)
+Rendered shared/_menu (0.0ms)
+Completed in 24ms (View: 12, DB: 6) | 200 OK [http://localhost/searches/3]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#show (for 127.0.0.1 at 2010-05-18 14:45:32) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mSearch Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `searches`[0m
+  [4;36;1mSearch Load (1.0ms)[0m   [0;1mSELECT * FROM `searches` WHERE (`searches`.`id` = 1) [0m
+  [4;35;1mSearch Load (0.0ms)[0m   [0mSELECT * FROM `searches` [0m
+Rendering template within layouts/application
+Rendering searches/show
+Rendered searches/_search (3.0ms)
+Rendered shared/_menu (0.0ms)
+Completed in 20ms (View: 9, DB: 4) | 200 OK [http://localhost/searches/1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#show (for 127.0.0.1 at 2010-05-18 14:45:34) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mSearch Columns (8.0ms)[0m   [0;1mSHOW FIELDS FROM `searches`[0m
+  [4;35;1mSearch Load (1.0ms)[0m   [0mSELECT * FROM `searches` WHERE (`searches`.`id` = 2) [0m
+  [4;36;1mSearch Load (1.0ms)[0m   [0;1mSELECT * FROM `searches` [0m
+Rendering template within layouts/application
+Rendering searches/show
+Rendered searches/_search (35.0ms)
+Rendered shared/_menu (0.0ms)
+Completed in 56ms (View: 41, DB: 10) | 200 OK [http://localhost/searches/2]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#show (for 127.0.0.1 at 2010-05-18 14:45:35) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mSearch Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `searches`[0m
+  [4;36;1mSearch Load (1.0ms)[0m   [0;1mSELECT * FROM `searches` WHERE (`searches`.`id` = 3) [0m
+  [4;35;1mSearch Load (0.0ms)[0m   [0mSELECT * FROM `searches` [0m
+Rendering template within layouts/application
+Rendering searches/show
+Rendered searches/_search (3.0ms)
+Rendered shared/_menu (0.0ms)
+Completed in 21ms (View: 10, DB: 5) | 200 OK [http://localhost/searches/3]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#index (for 127.0.0.1 at 2010-05-18 14:45:50) [GET]
+  [4;36;1mSearch Load (1.0ms)[0m   [0;1mSELECT * FROM `searches` [0m
+Rendering template within layouts/application
+Rendering searches/index
+  [4;35;1mSearch Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `searches`[0m
+Rendered shared/_menu (0.0ms)
+Completed in 13ms (View: 5, DB: 4) | 200 OK [http://localhost/searches]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#show (for 127.0.0.1 at 2010-05-18 14:46:01) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mSearch Columns (4.0ms)[0m   [0;1mSHOW FIELDS FROM `searches`[0m
+  [4;35;1mSearch Load (2.0ms)[0m   [0mSELECT * FROM `searches` WHERE (`searches`.`id` = 1) [0m
+  [4;36;1mSearch Load (0.0ms)[0m   [0;1mSELECT * FROM `searches` [0m
+Rendering template within layouts/application
+Rendering searches/show
+Rendered searches/_search (3.0ms)
+Rendered shared/_menu (1.0ms)
+Completed in 20ms (View: 9, DB: 6) | 200 OK [http://localhost/searches/1]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#destroy (for 127.0.0.1 at 2010-05-18 14:52:19) [DELETE]
+  Parameters: {"authenticity_token"=>"1mQnxThc+iBJqL9hspcxrKkSzFsPhEzcZbMMPeQ7f2o=", "id"=>"1"}
+  [4;35;1mSearch Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `searches`[0m
+  [4;36;1mSearch Load (1.0ms)[0m   [0;1mSELECT * FROM `searches` WHERE (`searches`.`id` = 1) [0m
+  [4;35;1mSQL (1.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSearch Destroy (0.0ms)[0m   [0;1mDELETE FROM `searches` WHERE `id` = 1[0m
+  [4;35;1mSQL (34.0ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3003/searches
+Completed in 46ms (DB: 39) | 302 Found [http://localhost/searches/1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#index (for 127.0.0.1 at 2010-05-18 14:52:19) [GET]
+  [4;36;1mSearch Load (1.0ms)[0m   [0;1mSELECT * FROM `searches` [0m
+Rendering template within layouts/application
+Rendering searches/index
+  [4;35;1mSearch Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `searches`[0m
+Rendered shared/_menu (1.0ms)
+Completed in 13ms (View: 5, DB: 4) | 200 OK [http://localhost/searches]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#show (for 127.0.0.1 at 2010-05-18 14:52:21) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mSearch Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `searches`[0m
+  [4;35;1mSearch Load (1.0ms)[0m   [0mSELECT * FROM `searches` WHERE (`searches`.`id` = 2) [0m
+  [4;36;1mSearch Load (0.0ms)[0m   [0;1mSELECT * FROM `searches` [0m
+Rendering template within layouts/application
+Rendering searches/show
+Rendered searches/_search (3.0ms)
+Rendered shared/_menu (0.0ms)
+Completed in 20ms (View: 9, DB: 4) | 200 OK [http://localhost/searches/2]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#show (for 127.0.0.1 at 2010-05-18 14:52:23) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mSearch Columns (4.0ms)[0m   [0mSHOW FIELDS FROM `searches`[0m
+  [4;36;1mSearch Load (2.0ms)[0m   [0;1mSELECT * FROM `searches` WHERE (`searches`.`id` = 3) [0m
+  [4;35;1mSearch Load (0.0ms)[0m   [0mSELECT * FROM `searches` [0m
+Rendering template within layouts/application
+Rendering searches/show
+Rendered searches/_search (2.0ms)
+Rendered shared/_menu (1.0ms)
+Completed in 20ms (View: 9, DB: 6) | 200 OK [http://localhost/searches/3]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#show (for 127.0.0.1 at 2010-05-18 14:52:24) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mSearch Columns (16.0ms)[0m   [0;1mSHOW FIELDS FROM `searches`[0m
+  [4;35;1mSearch Load (2.0ms)[0m   [0mSELECT * FROM `searches` WHERE (`searches`.`id` = 2) [0m
+  [4;36;1mSearch Load (0.0ms)[0m   [0;1mSELECT * FROM `searches` [0m
+Rendering template within layouts/application
+Rendering searches/show
+Rendered searches/_search (3.0ms)
+Rendered shared/_menu (1.0ms)
+Completed in 33ms (View: 9, DB: 18) | 200 OK [http://localhost/searches/2]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#destroy (for 127.0.0.1 at 2010-05-18 14:52:27) [DELETE]
+  Parameters: {"authenticity_token"=>"1mQnxThc+iBJqL9hspcxrKkSzFsPhEzcZbMMPeQ7f2o=", "id"=>"2"}
+  [4;35;1mSearch Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `searches`[0m
+  [4;36;1mSearch Load (0.0ms)[0m   [0;1mSELECT * FROM `searches` WHERE (`searches`.`id` = 2) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSearch Destroy (0.0ms)[0m   [0;1mDELETE FROM `searches` WHERE `id` = 2[0m
+  [4;35;1mSQL (33.0ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3003/searches
+Completed in 44ms (DB: 36) | 302 Found [http://localhost/searches/2]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#index (for 127.0.0.1 at 2010-05-18 14:52:27) [GET]
+  [4;36;1mSearch Load (0.0ms)[0m   [0;1mSELECT * FROM `searches` [0m
+Rendering template within layouts/application
+Rendering searches/index
+  [4;35;1mSearch Columns (4.0ms)[0m   [0mSHOW FIELDS FROM `searches`[0m
+Rendered shared/_menu (0.0ms)
+Completed in 13ms (View: 3, DB: 4) | 200 OK [http://localhost/searches]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#show (for 127.0.0.1 at 2010-05-18 14:52:29) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mSearch Columns (4.0ms)[0m   [0;1mSHOW FIELDS FROM `searches`[0m
+  [4;35;1mSearch Load (2.0ms)[0m   [0mSELECT * FROM `searches` WHERE (`searches`.`id` = 3) [0m
+  [4;36;1mSearch Load (0.0ms)[0m   [0;1mSELECT * FROM `searches` [0m
+Rendering template within layouts/application
+Rendering searches/show
+Rendered searches/_search (3.0ms)
+Rendered shared/_menu (0.0ms)
+Completed in 20ms (View: 8, DB: 6) | 200 OK [http://localhost/searches/3]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#edit (for 127.0.0.1 at 2010-05-18 14:52:43) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mSearch Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `searches`[0m
+  [4;36;1mSearch Load (2.0ms)[0m   [0;1mSELECT * FROM `searches` WHERE (`searches`.`id` = 3) [0m
+Rendering template within layouts/application
+Rendering searches/edit
+Rendered shared/_menu (0.0ms)
+Completed in 20ms (View: 9, DB: 6) | 200 OK [http://localhost/searches/3/edit]
+  [4;35;1mSQL (1.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#update (for 127.0.0.1 at 2010-05-18 14:52:55) [PUT]
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"1mQnxThc+iBJqL9hspcxrKkSzFsPhEzcZbMMPeQ7f2o=", "id"=>"3", "search"=>{"title"=>"Steve's Listings", "order"=>"1", "search"=>"desertareamls.rapmls.com/scripts/mgrqispi.dll?APPNAME=Desertarea&PRGNAME=MLSLogin&ARGUMENT=A6NyxhjmUYSppCGgcP2%2FdAW4BEIXMxmUFH%2B%2FpixHRBw%3D&KeyRid=1"}}
+  [4;35;1mSearch Columns (37.0ms)[0m   [0mSHOW FIELDS FROM `searches`[0m
+  [4;36;1mSearch Load (1.0ms)[0m   [0;1mSELECT * FROM `searches` WHERE (`searches`.`id` = 3) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSearch Update (0.0ms)[0m   [0;1mUPDATE `searches` SET `updated_at` = '2010-05-18 18:52:55', `search` = 'desertareamls.rapmls.com/scripts/mgrqispi.dll?APPNAME=Desertarea&PRGNAME=MLSLogin&ARGUMENT=A6NyxhjmUYSppCGgcP2%2FdAW4BEIXMxmUFH%2B%2FpixHRBw%3D&KeyRid=1' WHERE `id` = 3[0m
+  [4;35;1mSQL (66.0ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3003/searches/3
+Completed in 114ms (DB: 105) | 302 Found [http://localhost/searches/3]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#show (for 127.0.0.1 at 2010-05-18 14:52:55) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mSearch Columns (4.0ms)[0m   [0;1mSHOW FIELDS FROM `searches`[0m
+  [4;35;1mSearch Load (2.0ms)[0m   [0mSELECT * FROM `searches` WHERE (`searches`.`id` = 3) [0m
+  [4;36;1mSearch Load (0.0ms)[0m   [0;1mSELECT * FROM `searches` [0m
+Rendering template within layouts/application
+Rendering searches/show
+Rendered searches/_search (3.0ms)
+Rendered shared/_menu (0.0ms)
+Completed in 20ms (View: 9, DB: 6) | 200 OK [http://localhost/searches/3]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#show (for 127.0.0.1 at 2010-05-18 14:53:51) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mSearch Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `searches`[0m
+  [4;36;1mSearch Load (2.0ms)[0m   [0;1mSELECT * FROM `searches` WHERE (`searches`.`id` = 3) [0m
+  [4;35;1mSearch Load (1.0ms)[0m   [0mSELECT * FROM `searches` [0m
+Rendering template within layouts/application
+Rendering searches/show
+Rendered searches/_search (3.0ms)
+Rendered shared/_menu (1.0ms)
+Completed in 21ms (View: 10, DB: 6) | 200 OK [http://localhost/searches/3]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#show (for 127.0.0.1 at 2010-05-18 14:54:38) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mSearch Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `searches`[0m
+  [4;35;1mSearch Load (1.0ms)[0m   [0mSELECT * FROM `searches` WHERE (`searches`.`id` = 3) [0m
+  [4;36;1mSearch Load (1.0ms)[0m   [0;1mSELECT * FROM `searches` [0m
+Rendering template within layouts/application
+Rendering searches/show
+Rendered searches/_search (3.0ms)
+Rendered shared/_menu (0.0ms)
+Completed in 21ms (View: 10, DB: 5) | 200 OK [http://localhost/searches/3]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#show (for 127.0.0.1 at 2010-05-18 14:54:40) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mSearch Columns (4.0ms)[0m   [0mSHOW FIELDS FROM `searches`[0m
+  [4;36;1mSearch Load (2.0ms)[0m   [0;1mSELECT * FROM `searches` WHERE (`searches`.`id` = 3) [0m
+  [4;35;1mSearch Load (0.0ms)[0m   [0mSELECT * FROM `searches` [0m
+Rendering template within layouts/application
+Rendering searches/show
+Rendered searches/_search (3.0ms)
+Rendered shared/_menu (0.0ms)
+Completed in 18ms (View: 6, DB: 6) | 200 OK [http://localhost/searches/3]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#show (for 127.0.0.1 at 2010-05-18 16:13:06) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mSearch Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `searches`[0m
+  [4;35;1mSearch Load (1.0ms)[0m   [0mSELECT * FROM `searches` WHERE (`searches`.`id` = 3) [0m
+  [4;36;1mSearch Load (0.0ms)[0m   [0;1mSELECT * FROM `searches` [0m
+Rendering template within layouts/application
+Rendering searches/show
+Rendered searches/_search (3.0ms)
+Rendered shared/_menu (0.0ms)
+Completed in 18ms (View: 7, DB: 4) | 200 OK [http://localhost/searches/3]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#show (for 127.0.0.1 at 2010-05-18 16:31:19) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mSearch Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `searches`[0m
+  [4;36;1mSearch Load (1.0ms)[0m   [0;1mSELECT * FROM `searches` WHERE (`searches`.`id` = 3) [0m
+  [4;35;1mSearch Load (0.0ms)[0m   [0mSELECT * FROM `searches` [0m
+Rendering template within layouts/application
+Rendering searches/show
+Rendered searches/_search (3.0ms)
+Rendered shared/_menu (0.0ms)
+Completed in 20ms (View: 7, DB: 4) | 200 OK [http://localhost/searches/3]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#index (for 127.0.0.1 at 2010-05-18 16:31:21) [GET]
+  [4;36;1mSearch Load (1.0ms)[0m   [0;1mSELECT * FROM `searches` [0m
+Rendering template within layouts/application
+Rendering searches/index
+  [4;35;1mSearch Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `searches`[0m
+Rendered shared/_menu (0.0ms)
+Completed in 13ms (View: 4, DB: 5) | 200 OK [http://localhost/searches]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#index (for 127.0.0.1 at 2010-05-18 16:31:23) [GET]
+  [4;36;1mSearch Load (0.0ms)[0m   [0;1mSELECT * FROM `searches` [0m
+Rendering template within layouts/application
+Rendering searches/index
+  [4;35;1mSearch Columns (4.0ms)[0m   [0mSHOW FIELDS FROM `searches`[0m
+Rendered shared/_menu (0.0ms)
+Completed in 13ms (View: 3, DB: 4) | 200 OK [http://localhost/searches]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ResourcesController#index (for 127.0.0.1 at 2010-05-18 16:31:27) [GET]
+  [4;36;1mResource Load (0.0ms)[0m   [0;1mSELECT * FROM `resources` [0m
+Rendering template within layouts/application
+Rendering resources/index
+  [4;35;1mResource Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `resources`[0m
+Rendered resources/_resource (2.0ms)
+Rendered resources/_resource (2.0ms)
+Rendered shared/_menu (0.0ms)
+Completed in 21ms (View: 9, DB: 4) | 200 OK [http://localhost/resources]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#index (for 127.0.0.1 at 2010-05-18 16:31:28) [GET]
+  [4;36;1mArticle Load (0.0ms)[0m   [0;1mSELECT * FROM `articles` [0m
+Rendering template within layouts/application
+Rendering articles/index
+  [4;35;1mArticle Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+Rendered articles/_article (1.0ms)
+Rendered articles/_article (1.0ms)
+Rendered articles/_article (1.0ms)
+Rendered shared/_menu (1.0ms)
+Completed in 20ms (View: 9, DB: 3) | 200 OK [http://localhost/articles]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#index (for 127.0.0.1 at 2010-05-18 20:29:40) [GET]
+  [4;36;1mArticle Load (1.0ms)[0m   [0;1mSELECT * FROM `articles` [0m
+Rendering template within layouts/application
+Rendering articles/index
+  [4;35;1mArticle Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+Rendered articles/_article (2.0ms)
+Rendered articles/_article (1.0ms)
+Rendered articles/_article (1.0ms)
+Rendered shared/_menu (1.0ms)
+Completed in 18ms (View: 9, DB: 5) | 200 OK [http://localhost/articles]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ResourcesController#index (for 127.0.0.1 at 2010-05-18 20:35:54) [GET]
+  [4;36;1mResource Load (1.0ms)[0m   [0;1mSELECT * FROM `resources` [0m
+Rendering template within layouts/application
+Rendering resources/index
+  [4;35;1mResource Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `resources`[0m
+Rendered resources/_resource (1.0ms)
+Rendered resources/_resource (0.0ms)
+Rendered shared/_menu (1.0ms)
+Completed in 47ms (View: 39, DB: 5) | 200 OK [http://localhost/resources]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#index (for 127.0.0.1 at 2010-05-18 20:36:00) [GET]
+  [4;36;1mSearch Load (0.0ms)[0m   [0;1mSELECT * FROM `searches` [0m
+Rendering template within layouts/application
+Rendering searches/index
+  [4;35;1mSearch Columns (4.0ms)[0m   [0mSHOW FIELDS FROM `searches`[0m
+Rendered shared/_menu (0.0ms)
+Completed in 13ms (View: 3, DB: 4) | 200 OK [http://localhost/searches]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#index (for 127.0.0.1 at 2010-05-18 20:37:49) [GET]
+  [4;36;1mSearch Load (0.0ms)[0m   [0;1mSELECT * FROM `searches` [0m
+Rendering template within layouts/searches
+Rendering searches/index
+  [4;35;1mSearch Columns (4.0ms)[0m   [0mSHOW FIELDS FROM `searches`[0m
+Rendered shared/_menu (0.0ms)
+Completed in 16ms (View: 6, DB: 4) | 200 OK [http://localhost/searches]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-18 20:37:50) [GET]
+
+ActionController::RoutingError (No route matches "/empty.php" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-18 20:37:50) [GET]
+
+ActionController::RoutingError (No route matches "/%3Ctitle" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#index (for 127.0.0.1 at 2010-05-18 20:57:10) [GET]
+  [4;36;1mSearch Load (0.0ms)[0m   [0;1mSELECT * FROM `searches` [0m
+Rendering template within layouts/searches
+Rendering searches/index
+  [4;35;1mSearch Columns (4.0ms)[0m   [0mSHOW FIELDS FROM `searches`[0m
+Completed in 16ms (View: 5, DB: 4) | 200 OK [http://localhost/searches]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#index (for 127.0.0.1 at 2010-05-18 20:57:10) [GET]
+  [4;36;1mSearch Load (0.0ms)[0m   [0;1mSELECT * FROM `searches` [0m
+Rendering template within layouts/searches
+Rendering searches/index
+  [4;35;1mSearch Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `searches`[0m
+Completed in 12ms (View: 4, DB: 3) | 200 OK [http://localhost/searches]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#index (for 127.0.0.1 at 2010-05-18 20:58:32) [GET]
+  [4;36;1mSearch Load (0.0ms)[0m   [0;1mSELECT * FROM `searches` [0m
+Rendering template within layouts/searches
+Rendering searches/index
+  [4;35;1mSearch Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `searches`[0m
+Completed in 16ms (View: 7, DB: 3) | 200 OK [http://localhost/searches]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#show (for 127.0.0.1 at 2010-05-18 20:58:32) [GET]
+  Parameters: {"id"=>"_menu"}
+  [4;36;1mSearch Columns (4.0ms)[0m   [0;1mSHOW FIELDS FROM `searches`[0m
+  [4;35;1mSearch Load (2.0ms)[0m   [0mSELECT * FROM `searches` WHERE (`searches`.`id` = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Search with ID=_menu):
+  app/controllers/searches_controller.rb:18:in `show'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (61.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-05-18 21:04:23) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Rendered shared/_menu (0.0ms)
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#index (for 127.0.0.1 at 2010-05-18 21:04:26) [GET]
+  [4;36;1mArticle Load (1.0ms)[0m   [0;1mSELECT * FROM `articles` [0m
+Rendering template within layouts/application
+Rendering articles/index
+  [4;35;1mArticle Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+Rendered articles/_article (2.0ms)
+Rendered articles/_article (1.0ms)
+Rendered articles/_article (1.0ms)
+Rendered shared/_menu (0.0ms)
+Completed in 19ms (View: 10, DB: 4) | 200 OK [http://localhost/articles]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-05-18 21:04:28) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Rendered shared/_menu (0.0ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/home]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-18 21:04:29) [GET]
+
+SyntaxError (C:/Users/StacyVlasits/Documents/Programs/rails_apps/realty/app/controllers/searches_controller.rb:99: syntax error, unexpected kEND, expecting $end):
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (26.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#index (for 127.0.0.1 at 2010-05-18 21:04:32) [GET]
+  [4;36;1mArticle Load (1.0ms)[0m   [0;1mSELECT * FROM `articles` [0m
+Rendering template within layouts/application
+Rendering articles/index
+  [4;35;1mArticle Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+Rendered articles/_article (2.0ms)
+Rendered articles/_article (1.0ms)
+Rendered articles/_article (1.0ms)
+Rendered shared/_menu (0.0ms)
+Completed in 19ms (View: 9, DB: 4) | 200 OK [http://localhost/articles]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-05-18 21:04:33) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered shared/_menu (1.0ms)
+Completed in 5ms (View: 4, DB: 1) | 200 OK [http://localhost/login]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-05-18 21:04:37) [POST]
+  Parameters: {"commit"=>"Login", "authenticity_token"=>"OxtjsCmWbWye3s6ljGhAH6bpluRMunMzv4LIrS1FJcI=", "username"=>"", "password"=>"foobar"}
+Redirected to http://localhost:3003/home
+Completed in 1ms (DB: 0) | 302 Found [http://localhost/sessions]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-05-18 21:04:37) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Rendered shared/_menu (1.0ms)
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/home]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#index (for 127.0.0.1 at 2010-05-18 21:04:39) [GET]
+  [4;36;1mArticle Load (0.0ms)[0m   [0;1mSELECT * FROM `articles` [0m
+Rendering template within layouts/application
+Rendering articles/index
+  [4;35;1mArticle Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+Rendered articles/_article (1.0ms)
+Rendered articles/_article (1.0ms)
+Rendered articles/_article (0.0ms)
+Rendered shared/_menu (1.0ms)
+Completed in 18ms (View: 9, DB: 3) | 200 OK [http://localhost/articles]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ResourcesController#index (for 127.0.0.1 at 2010-05-18 21:04:45) [GET]
+  [4;36;1mResource Load (0.0ms)[0m   [0;1mSELECT * FROM `resources` [0m
+Rendering template within layouts/application
+Rendering resources/index
+  [4;35;1mResource Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `resources`[0m
+Rendered resources/_resource (3.0ms)
+Rendered resources/_resource (2.0ms)
+Rendered shared/_menu (0.0ms)
+Completed in 19ms (View: 11, DB: 3) | 200 OK [http://localhost/resources]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#index (for 127.0.0.1 at 2010-05-18 21:04:52) [GET]
+  [4;36;1mArticle Load (0.0ms)[0m   [0;1mSELECT * FROM `articles` [0m
+Rendering template within layouts/application
+Rendering articles/index
+  [4;35;1mArticle Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+Rendered articles/_article (1.0ms)
+Rendered articles/_article (1.0ms)
+Rendered articles/_article (1.0ms)
+Rendered shared/_menu (1.0ms)
+Completed in 18ms (View: 9, DB: 3) | 200 OK [http://localhost/articles]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ResourcesController#index (for 127.0.0.1 at 2010-05-18 21:04:55) [GET]
+  [4;36;1mResource Load (1.0ms)[0m   [0;1mSELECT * FROM `resources` [0m
+Rendering template within layouts/application
+Rendering resources/index
+  [4;35;1mResource Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `resources`[0m
+Rendered resources/_resource (2.0ms)
+Rendered resources/_resource (2.0ms)
+Rendered shared/_menu (0.0ms)
+Completed in 18ms (View: 10, DB: 4) | 200 OK [http://localhost/resources]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-05-18 21:04:56) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Rendered shared/_menu (0.0ms)
+Completed in 4ms (View: 3, DB: 1) | 200 OK [http://localhost/home]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#show (for 127.0.0.1 at 2010-05-18 21:07:05) [GET]
+  Parameters: {"id"=>"frame"}
+
+SyntaxError (C:/Users/StacyVlasits/Documents/Programs/rails_apps/realty/app/controllers/searches_controller.rb:99: syntax error, unexpected kEND, expecting $end):
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (25.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#show (for 127.0.0.1 at 2010-05-18 21:07:35) [GET]
+  Parameters: {"id"=>"frame"}
+  [4;36;1mSearch Columns (4.0ms)[0m   [0;1mSHOW FIELDS FROM `searches`[0m
+  [4;35;1mSearch Load (2.0ms)[0m   [0mSELECT * FROM `searches` WHERE (`searches`.`id` = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Search with ID=frame):
+  app/controllers/searches_controller.rb:18:in `show'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (28.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#index (for 127.0.0.1 at 2010-05-18 21:07:48) [GET]
+  [4;36;1mSearch Load (0.0ms)[0m   [0;1mSELECT * FROM `searches` [0m
+Rendering template within layouts/searches
+Rendering searches/index
+  [4;35;1mSearch Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `searches`[0m
+Completed in 29ms (View: 21, DB: 3) | 200 OK [http://localhost/searches]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#show (for 127.0.0.1 at 2010-05-18 21:07:48) [GET]
+  Parameters: {"id"=>"frame"}
+  [4;36;1mSearch Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `searches`[0m
+  [4;35;1mSearch Load (1.0ms)[0m   [0mSELECT * FROM `searches` WHERE (`searches`.`id` = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Search with ID=frame):
+  app/controllers/searches_controller.rb:18:in `show'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (28.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#index (for 127.0.0.1 at 2010-05-18 21:09:45) [GET]
+  [4;36;1mSearch Load (0.0ms)[0m   [0;1mSELECT * FROM `searches` [0m
+Rendering template within layouts/searches
+Rendering searches/index
+  [4;35;1mSearch Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `searches`[0m
+Completed in 16ms (View: 6, DB: 3) | 200 OK [http://localhost/searches]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#index (for 127.0.0.1 at 2010-05-18 21:09:46) [GET]
+  [4;36;1mSearch Load (0.0ms)[0m   [0;1mSELECT * FROM `searches` [0m
+Rendering template within layouts/searches
+Rendering searches/index
+  [4;35;1mSearch Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `searches`[0m
+Completed in 12ms (View: 4, DB: 3) | 200 OK [http://localhost/searches]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#index (for 127.0.0.1 at 2010-05-18 21:10:45) [GET]
+  [4;36;1mSearch Load (0.0ms)[0m   [0;1mSELECT * FROM `searches` [0m
+Rendering template within layouts/searches
+Rendering searches/index
+  [4;35;1mSearch Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `searches`[0m
+Completed in 15ms (View: 7, DB: 3) | 200 OK [http://localhost/searches]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#index (for 127.0.0.1 at 2010-05-18 21:10:45) [GET]
+  [4;36;1mSearch Load (0.0ms)[0m   [0;1mSELECT * FROM `searches` [0m
+Rendering template within layouts/searches
+Rendering searches/index
+  [4;35;1mSearch Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `searches`[0m
+Completed in 12ms (View: 3, DB: 3) | 200 OK [http://localhost/searches]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#index (for 127.0.0.1 at 2010-05-18 21:10:45) [GET]
+  [4;36;1mSearch Load (0.0ms)[0m   [0;1mSELECT * FROM `searches` [0m
+Rendering template within layouts/searches
+Rendering searches/index
+  [4;35;1mSearch Columns (4.0ms)[0m   [0mSHOW FIELDS FROM `searches`[0m
+Completed in 13ms (View: 3, DB: 4) | 200 OK [http://localhost/searches]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#index (for 127.0.0.1 at 2010-05-18 21:10:49) [GET]
+  [4;36;1mSearch Load (1.0ms)[0m   [0;1mSELECT * FROM `searches` [0m
+Rendering template within layouts/searches
+Rendering searches/index
+  [4;35;1mSearch Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `searches`[0m
+Completed in 13ms (View: 4, DB: 4) | 200 OK [http://localhost/searches]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#index (for 127.0.0.1 at 2010-05-18 21:10:49) [GET]
+  [4;36;1mSearch Load (1.0ms)[0m   [0;1mSELECT * FROM `searches` [0m
+Rendering template within layouts/searches
+Rendering searches/index
+  [4;35;1mSearch Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `searches`[0m
+Completed in 12ms (View: 4, DB: 4) | 200 OK [http://localhost/searches]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#index (for 127.0.0.1 at 2010-05-18 21:10:49) [GET]
+  [4;36;1mSearch Load (0.0ms)[0m   [0;1mSELECT * FROM `searches` [0m
+Rendering template within layouts/searches
+Rendering searches/index
+  [4;35;1mSearch Columns (4.0ms)[0m   [0mSHOW FIELDS FROM `searches`[0m
+Completed in 14ms (View: 4, DB: 4) | 200 OK [http://localhost/searches]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#index (for 127.0.0.1 at 2010-05-18 21:26:28) [GET]
+  [4;36;1mSearch Load (0.0ms)[0m   [0;1mSELECT * FROM `searches` [0m
+Rendering template within layouts/searches
+Rendering searches/index
+  [4;35;1mSearch Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `searches`[0m
+Completed in 13ms (View: 4, DB: 3) | 200 OK [http://localhost/searches]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#index (for 127.0.0.1 at 2010-05-18 21:26:28) [GET]
+  [4;36;1mSearch Load (0.0ms)[0m   [0;1mSELECT * FROM `searches` [0m
+Rendering template within layouts/searches
+Rendering searches/index
+  [4;35;1mSearch Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `searches`[0m
+Completed in 12ms (View: 4, DB: 3) | 200 OK [http://localhost/searches]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#index (for 127.0.0.1 at 2010-05-18 21:26:29) [GET]
+  [4;36;1mSearch Load (0.0ms)[0m   [0;1mSELECT * FROM `searches` [0m
+Rendering template within layouts/searches
+Rendering searches/index
+  [4;35;1mSearch Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `searches`[0m
+Completed in 12ms (View: 3, DB: 3) | 200 OK [http://localhost/searches]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#index (for 127.0.0.1 at 2010-05-18 21:26:39) [GET]
+  [4;36;1mSearch Load (1.0ms)[0m   [0;1mSELECT * FROM `searches` [0m
+Rendering template within layouts/searches
+Rendering searches/index
+  [4;35;1mSearch Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `searches`[0m
+Completed in 15ms (View: 7, DB: 4) | 200 OK [http://localhost/searches]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#show (for 127.0.0.1 at 2010-05-18 21:26:39) [GET]
+  Parameters: {"id"=>"show"}
+  [4;36;1mSearch Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `searches`[0m
+  [4;35;1mSearch Load (1.0ms)[0m   [0mSELECT * FROM `searches` WHERE (`searches`.`id` = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Search with ID=show):
+  app/controllers/searches_controller.rb:18:in `show'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (28.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#index (for 127.0.0.1 at 2010-05-18 21:26:39) [GET]
+  [4;36;1mSearch Load (0.0ms)[0m   [0;1mSELECT * FROM `searches` [0m
+Rendering template within layouts/searches
+Rendering searches/index
+  [4;35;1mSearch Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `searches`[0m
+Completed in 12ms (View: 4, DB: 4) | 200 OK [http://localhost/searches]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#show (for 127.0.0.1 at 2010-05-18 21:26:39) [GET]
+  Parameters: {"id"=>"show"}
+  [4;36;1mSearch Columns (4.0ms)[0m   [0;1mSHOW FIELDS FROM `searches`[0m
+  [4;35;1mSearch Load (2.0ms)[0m   [0mSELECT * FROM `searches` WHERE (`searches`.`id` = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Search with ID=show):
+  app/controllers/searches_controller.rb:18:in `show'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (28.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#index (for 127.0.0.1 at 2010-05-18 21:30:35) [GET]
+  [4;36;1mSearch Load (0.0ms)[0m   [0;1mSELECT * FROM `searches` [0m
+Rendering template within layouts/searches
+Rendering searches/index
+  [4;35;1mSearch Columns (4.0ms)[0m   [0mSHOW FIELDS FROM `searches`[0m
+Completed in 49ms (View: 40, DB: 4) | 200 OK [http://localhost/searches]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#show (for 127.0.0.1 at 2010-05-18 21:30:35) [GET]
+  Parameters: {"id"=>"show"}
+  [4;36;1mSearch Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `searches`[0m
+  [4;35;1mSearch Load (2.0ms)[0m   [0mSELECT * FROM `searches` WHERE (`searches`.`id` = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Search with ID=show):
+  app/controllers/searches_controller.rb:18:in `show'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (28.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#index (for 127.0.0.1 at 2010-05-18 21:30:35) [GET]
+  [4;36;1mSearch Load (1.0ms)[0m   [0;1mSELECT * FROM `searches` [0m
+Rendering template within layouts/searches
+Rendering searches/index
+  [4;35;1mSearch Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `searches`[0m
+Completed in 13ms (View: 4, DB: 4) | 200 OK [http://localhost/searches]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#show (for 127.0.0.1 at 2010-05-18 21:30:35) [GET]
+  Parameters: {"id"=>"show"}
+  [4;36;1mSearch Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `searches`[0m
+  [4;35;1mSearch Load (2.0ms)[0m   [0mSELECT * FROM `searches` WHERE (`searches`.`id` = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Search with ID=show):
+  app/controllers/searches_controller.rb:18:in `show'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (28.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#index (for 127.0.0.1 at 2010-05-18 21:30:37) [GET]
+  [4;36;1mSearch Load (0.0ms)[0m   [0;1mSELECT * FROM `searches` [0m
+Rendering template within layouts/searches
+Rendering searches/index
+  [4;35;1mSearch Columns (4.0ms)[0m   [0mSHOW FIELDS FROM `searches`[0m
+Completed in 13ms (View: 3, DB: 4) | 200 OK [http://localhost/searches]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#index (for 127.0.0.1 at 2010-05-18 21:30:37) [GET]
+  [4;36;1mSearch Load (0.0ms)[0m   [0;1mSELECT * FROM `searches` [0m
+Rendering template within layouts/searches
+Rendering searches/index
+  [4;35;1mSearch Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `searches`[0m
+Completed in 13ms (View: 4, DB: 3) | 200 OK [http://localhost/searches]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#show (for 127.0.0.1 at 2010-05-18 21:30:37) [GET]
+  Parameters: {"id"=>"show"}
+  [4;36;1mSearch Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `searches`[0m
+  [4;35;1mSearch Load (1.0ms)[0m   [0mSELECT * FROM `searches` WHERE (`searches`.`id` = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Search with ID=show):
+  app/controllers/searches_controller.rb:18:in `show'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (29.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#show (for 127.0.0.1 at 2010-05-18 21:30:37) [GET]
+  Parameters: {"id"=>"show"}
+  [4;36;1mSearch Columns (4.0ms)[0m   [0;1mSHOW FIELDS FROM `searches`[0m
+  [4;35;1mSearch Load (2.0ms)[0m   [0mSELECT * FROM `searches` WHERE (`searches`.`id` = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Search with ID=show):
+  app/controllers/searches_controller.rb:18:in `show'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (28.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#index (for 127.0.0.1 at 2010-05-18 21:30:39) [GET]
+  [4;36;1mSearch Load (0.0ms)[0m   [0;1mSELECT * FROM `searches` [0m
+Rendering template within layouts/searches
+Rendering searches/index
+  [4;35;1mSearch Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `searches`[0m
+Completed in 13ms (View: 4, DB: 4) | 200 OK [http://localhost/searches]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#index (for 127.0.0.1 at 2010-05-18 21:30:39) [GET]
+  [4;36;1mSearch Load (0.0ms)[0m   [0;1mSELECT * FROM `searches` [0m
+Rendering template within layouts/searches
+Rendering searches/index
+  [4;35;1mSearch Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `searches`[0m
+Completed in 12ms (View: 4, DB: 3) | 200 OK [http://localhost/searches]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#show (for 127.0.0.1 at 2010-05-18 21:30:39) [GET]
+  Parameters: {"id"=>"show"}
+  [4;36;1mSearch Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `searches`[0m
+  [4;35;1mSearch Load (2.0ms)[0m   [0mSELECT * FROM `searches` WHERE (`searches`.`id` = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Search with ID=show):
+  app/controllers/searches_controller.rb:18:in `show'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (60.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#show (for 127.0.0.1 at 2010-05-18 21:30:39) [GET]
+  Parameters: {"id"=>"show"}
+  [4;36;1mSearch Columns (4.0ms)[0m   [0;1mSHOW FIELDS FROM `searches`[0m
+  [4;35;1mSearch Load (2.0ms)[0m   [0mSELECT * FROM `searches` WHERE (`searches`.`id` = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Search with ID=show):
+  app/controllers/searches_controller.rb:18:in `show'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (28.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#index (for 127.0.0.1 at 2010-05-18 21:32:47) [GET]
+  [4;36;1mSearch Load (0.0ms)[0m   [0;1mSELECT * FROM `searches` [0m
+Rendering template within layouts/searches
+Rendering searches/index
+  [4;35;1mSearch Columns (4.0ms)[0m   [0mSHOW FIELDS FROM `searches`[0m
+Rendered shared/_menu (0.0ms)
+Completed in 17ms (View: 7, DB: 4) | 200 OK [http://localhost/searches]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#index (for 127.0.0.1 at 2010-05-18 21:32:49) [GET]
+  [4;36;1mSearch Load (0.0ms)[0m   [0;1mSELECT * FROM `searches` [0m
+Rendering template within layouts/searches
+Rendering searches/index
+  [4;35;1mSearch Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `searches`[0m
+Rendered shared/_menu (1.0ms)
+Completed in 14ms (View: 5, DB: 3) | 200 OK [http://localhost/searches]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#show (for 127.0.0.1 at 2010-05-18 21:33:39) [GET]
+  Parameters: {"id"=>"show"}
+  [4;36;1mSearch Columns (4.0ms)[0m   [0;1mSHOW FIELDS FROM `searches`[0m
+  [4;35;1mSearch Load (2.0ms)[0m   [0mSELECT * FROM `searches` WHERE (`searches`.`id` = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Search with ID=show):
+  app/controllers/searches_controller.rb:18:in `show'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (60.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#index (for 127.0.0.1 at 2010-05-18 21:34:02) [GET]
+  [4;36;1mSearch Load (0.0ms)[0m   [0;1mSELECT * FROM `searches` [0m
+Rendering template within layouts/searches
+Rendering searches/index
+  [4;35;1mSearch Columns (4.0ms)[0m   [0mSHOW FIELDS FROM `searches`[0m
+Rendered shared/_menu (0.0ms)
+Completed in 13ms (View: 4, DB: 4) | 200 OK [http://localhost/searches]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-05-18 21:34:03) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Rendered shared/_menu (0.0ms)
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/home]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#index (for 127.0.0.1 at 2010-05-18 21:34:04) [GET]
+  [4;36;1mArticle Load (0.0ms)[0m   [0;1mSELECT * FROM `articles` [0m
+Rendering template within layouts/application
+Rendering articles/index
+  [4;35;1mArticle Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+Rendered articles/_article (1.0ms)
+Rendered articles/_article (2.0ms)
+Rendered articles/_article (1.0ms)
+Rendered shared/_menu (1.0ms)
+Completed in 18ms (View: 9, DB: 3) | 200 OK [http://localhost/articles]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#index (for 127.0.0.1 at 2010-05-18 21:34:05) [GET]
+  [4;36;1mSearch Load (0.0ms)[0m   [0;1mSELECT * FROM `searches` [0m
+Rendering template within layouts/searches
+Rendering searches/index
+  [4;35;1mSearch Columns (4.0ms)[0m   [0mSHOW FIELDS FROM `searches`[0m
+Rendered shared/_menu (0.0ms)
+Completed in 14ms (View: 4, DB: 4) | 200 OK [http://localhost/searches]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#index (for 127.0.0.1 at 2010-05-18 21:34:06) [GET]
+  [4;36;1mSearch Load (1.0ms)[0m   [0;1mSELECT * FROM `searches` [0m
+Rendering template within layouts/searches
+Rendering searches/index
+  [4;35;1mSearch Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `searches`[0m
+Rendered shared/_menu (0.0ms)
+Completed in 13ms (View: 5, DB: 5) | 200 OK [http://localhost/searches]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ResourcesController#index (for 127.0.0.1 at 2010-05-18 21:34:07) [GET]
+  [4;36;1mResource Load (0.0ms)[0m   [0;1mSELECT * FROM `resources` [0m
+Rendering template within layouts/application
+Rendering resources/index
+  [4;35;1mResource Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `resources`[0m
+Rendered resources/_resource (3.0ms)
+Rendered resources/_resource (2.0ms)
+Rendered shared/_menu (1.0ms)
+Completed in 19ms (View: 10, DB: 3) | 200 OK [http://localhost/resources]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#index (for 127.0.0.1 at 2010-05-18 21:34:08) [GET]
+  [4;36;1mSearch Load (1.0ms)[0m   [0;1mSELECT * FROM `searches` [0m
+Rendering template within layouts/searches
+Rendering searches/index
+  [4;35;1mSearch Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `searches`[0m
+Rendered shared/_menu (0.0ms)
+Completed in 13ms (View: 5, DB: 4) | 200 OK [http://localhost/searches]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-05-18 21:47:33) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Rendered shared/_menu (1.0ms)
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/home]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#index (for 127.0.0.1 at 2010-05-18 21:47:34) [GET]
+  [4;36;1mArticle Load (0.0ms)[0m   [0;1mSELECT * FROM `articles` [0m
+Rendering template within layouts/application
+Rendering articles/index
+  [4;35;1mArticle Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+Rendered articles/_article (1.0ms)
+Rendered articles/_article (1.0ms)
+Rendered articles/_article (1.0ms)
+Rendered shared/_menu (1.0ms)
+Completed in 18ms (View: 9, DB: 4) | 200 OK [http://localhost/articles]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ResourcesController#index (for 127.0.0.1 at 2010-05-18 21:47:39) [GET]
+  [4;36;1mResource Load (1.0ms)[0m   [0;1mSELECT * FROM `resources` [0m
+Rendering template within layouts/application
+Rendering resources/index
+  [4;35;1mResource Columns (4.0ms)[0m   [0mSHOW FIELDS FROM `resources`[0m
+Rendered resources/_resource (2.0ms)
+Rendered resources/_resource (2.0ms)
+Rendered shared/_menu (0.0ms)
+Completed in 18ms (View: 9, DB: 5) | 200 OK [http://localhost/resources]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#index (for 127.0.0.1 at 2010-05-18 21:47:43) [GET]
+  [4;36;1mArticle Load (0.0ms)[0m   [0;1mSELECT * FROM `articles` [0m
+Rendering template within layouts/application
+Rendering articles/index
+  [4;35;1mArticle Columns (4.0ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+Rendered articles/_article (1.0ms)
+Rendered articles/_article (2.0ms)
+Rendered articles/_article (1.0ms)
+Rendered shared/_menu (0.0ms)
+Completed in 18ms (View: 8, DB: 4) | 200 OK [http://localhost/articles]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-05-18 21:47:45) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Rendered shared/_menu (0.0ms)
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/home]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-05-18 22:03:36) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Rendered shared/_menu (0.0ms)
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://localhost/home]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-05-18 22:08:04) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Rendered shared/_menu (0.0ms)
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/home]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#index (for 127.0.0.1 at 2010-05-18 22:11:26) [GET]
+  [4;36;1mArticle Load (1.0ms)[0m   [0;1mSELECT * FROM `articles` [0m
+Rendering template within layouts/application
+Rendering articles/index
+  [4;35;1mArticle Columns (4.0ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+Rendered articles/_article (1.0ms)
+Rendered articles/_article (1.0ms)
+Rendered articles/_article (1.0ms)
+Rendered shared/_menu (0.0ms)
+Completed in 19ms (View: 9, DB: 5) | 200 OK [http://localhost/articles]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#index (for 127.0.0.1 at 2010-05-18 22:11:27) [GET]
+  [4;36;1mSearch Load (1.0ms)[0m   [0;1mSELECT * FROM `searches` [0m
+Rendering template within layouts/searches
+Rendering searches/index
+  [4;35;1mSearch Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `searches`[0m
+Completed in 16ms (View: 6, DB: 4) | 200 OK [http://localhost/searches]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#show (for 127.0.0.1 at 2010-05-18 22:11:27) [GET]
+  Parameters: {"id"=>"show"}
+  [4;36;1mSearch Columns (4.0ms)[0m   [0;1mSHOW FIELDS FROM `searches`[0m
+  [4;35;1mSearch Load (2.0ms)[0m   [0mSELECT * FROM `searches` WHERE (`searches`.`id` = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Search with ID=show):
+  app/controllers/searches_controller.rb:18:in `show'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (29.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#index (for 127.0.0.1 at 2010-05-18 22:11:27) [GET]
+  [4;36;1mSearch Load (0.0ms)[0m   [0;1mSELECT * FROM `searches` [0m
+Rendering template within layouts/searches
+Rendering searches/index
+  [4;35;1mSearch Columns (4.0ms)[0m   [0mSHOW FIELDS FROM `searches`[0m
+Completed in 12ms (View: 2, DB: 4) | 200 OK [http://localhost/searches]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SearchesController#show (for 127.0.0.1 at 2010-05-18 22:11:27) [GET]
+  Parameters: {"id"=>"show"}
+  [4;36;1mSearch Columns (4.0ms)[0m   [0;1mSHOW FIELDS FROM `searches`[0m
+  [4;35;1mSearch Load (2.0ms)[0m   [0mSELECT * FROM `searches` WHERE (`searches`.`id` = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Search with ID=show):
+  app/controllers/searches_controller.rb:18:in `show'
+  -e:2:in `load'
+  -e:2
+
+Rendered rescues/_trace (59.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ResourcesController#index (for 127.0.0.1 at 2010-05-18 22:11:31) [GET]
+  [4;36;1mResource Load (0.0ms)[0m   [0;1mSELECT * FROM `resources` [0m
+Rendering template within layouts/application
+Rendering resources/index
+  [4;35;1mResource Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `resources`[0m
+Rendered resources/_resource (3.0ms)
+Rendered resources/_resource (2.0ms)
+Rendered shared/_menu (1.0ms)
+Completed in 19ms (View: 11, DB: 3) | 200 OK [http://localhost/resources]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ArticlesController#index (for 127.0.0.1 at 2010-05-18 22:11:33) [GET]
+  [4;36;1mArticle Load (1.0ms)[0m   [0;1mSELECT * FROM `articles` [0m
+Rendering template within layouts/application
+Rendering articles/index
+  [4;35;1mArticle Columns (4.0ms)[0m   [0mSHOW FIELDS FROM `articles`[0m
+Rendered articles/_article (2.0ms)
+Rendered articles/_article (1.0ms)
+Rendered articles/_article (1.0ms)
+Rendered shared/_menu (0.0ms)
+Completed in 19ms (View: 9, DB: 5) | 200 OK [http://localhost/articles]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionsController#destroy (for 127.0.0.1 at 2010-05-18 22:11:36) [GET]
+Redirected to http://localhost:3003/home
+Completed in 2ms (DB: 0) | 302 Found [http://localhost/logout]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-05-18 22:11:36) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Rendered shared/_menu (1.0ms)
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/home]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-05-18 22:11:38) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Rendered shared/_menu (0.0ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/home]
