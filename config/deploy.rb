@@ -1,9 +1,8 @@
 
-
 set :user, 'clavatra'
 set :scm, :git 
 set :scm_username, "stacyvlasits" 
-set :scm_password, "ToFana0423" 
+set :scm_password, "" 
 set :repository,  "git://github.com/stacyvlasits/realty.git"
 set :server, 'resortrealty.railsplayground.net'
 set :application, 'realty'
